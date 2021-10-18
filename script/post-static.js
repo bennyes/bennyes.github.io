@@ -6,15 +6,16 @@ function bajgen(msg,link,judul){
     bjmsg.classList.add('baca-juga-ttl');
     if(!msg){bjmsg.innerHTML='Baca juga';}
     else{bjmsg.innerHTML=msg;}
+    bjmsg.innerHTML+=':';
     bjcont.appendChild(bjmsg);
     link=link.split("|||");
     judul=judul.split("|||");
-    for(var i=0;i<link.length;link++){
+    for(var i=0;i<link.length;i++){
     var bjisi=document.createElement('span');
     bjisi.classList.add('baca-juga-isi');
     bjcont.appendChild(bjisi);
     var bjlink=document.createElement('a');
-    bjlink.href=link[i];bjlink.innerHTML=judul[i];
+    bjlink.href=link[i];bjlink.innerHTML=`judul[i];`
     bjisi.appendChild(bjlink);
     }
 }
