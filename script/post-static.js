@@ -9,7 +9,7 @@ function bajgen(msg,link,judul){
     bjcont.appendChild(bjmsg);
     link=link.split("|||");
     judul=judul.split("|||");
-    for(var i=1;i<link.length;link++){
+    for(var i=0;i<link.length;link++){
     var bjisi=document.createElement('span');
     bjisi.classList.add('baca-juga-isi');
     bjcont.appendChild(bjisi);
