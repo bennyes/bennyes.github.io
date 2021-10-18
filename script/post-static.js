@@ -14,7 +14,7 @@ function bajgen(msg,link,judul){
     bjisi.classList.add('baca-juga-isi');
     bjcont.appendChild(bjisi);
     var bjlink=document.createElement('a');
-    bjlink.href=link[i];bjlink.innerHTML=`judul[i];`
+    bjlink.href=link[i];bjlink.innerHTML=judul[i];
     bjisi.appendChild(bjlink);
     }
 }
