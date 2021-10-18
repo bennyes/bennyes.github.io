@@ -4,9 +4,8 @@ function bajgen(msg,link,judul){
     document.currentScript.insertAdjacentElement('beforebegin',bjcont);
     var bjmsg=document.createElement('div');
     bjmsg.classList.add('baca-juga-ttl');
-    if(!msg){bjmsg.innerHTML='Baca juga';}
-    else{bjmsg.innerHTML=msg;}
-    bjmsg.innerHTML+=':';
+    if(!msg){bjmsg.innerHTML='<u>Baca juga</u>:';}
+    else{bjmsg.innerHTML=`<u>${msg}</u>:`;}
     bjcont.appendChild(bjmsg);
     link=link.split("|||");
     judul=judul.split("|||");
