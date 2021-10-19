@@ -13,7 +13,9 @@ function abbr(){
             console.log()`abr[i] = ${abr[i].innerHTML}`;
             console.log()`abr[i].id = ${abr[i].id}`;
             abr[i].insertAdjacentElement('afterend',ket);
-            $(abr[i]).click((function(){$(ket).toggleClass("pjganshow")}));
+            abr[i].addEventListener("click",function(){
+                ket.classList.toggle("pjganshow");
+                });
             var ipjg=document.createElement('b');
             ipjg.classList.add('kpnjngn');
             ipjg.innerHTML=ttl[0];
@@ -23,4 +25,4 @@ function abbr(){
         }
     }
 }
-$(document).ready(function(){abbr()});
+window.onload=abbr();
