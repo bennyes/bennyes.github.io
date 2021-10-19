@@ -4,7 +4,7 @@ function showextvid(btnid,vidid,vidcls,src){var vidmark=document.createElement('
 function showImage(imglink,imgalt,imgcapt,imgcls,lazy,flex){let orlink,phlink;(imglink=imglink.split("|||"))[1]?(orlink=imglink[0],phlink=imglink[1]):(orlink=imglink[0],phlink=imglink[0]),flex&&document.write("<div class='imgflex'>"),flex?(lazy?document.write(`<a href='${orlink}'><div class='flexinside'><img alt='${imgalt}' class='${imgcls}' loading='lazy' src='${phlink}'/></div></a>`):document.write(`<a href='${orlink}'><img alt='${imgalt}' class='${imgcls}' src='${phlink}'/></a>`),""!=imgcapt&&document.write(`<div class='imgcaption'>${imgcapt}</div>`)):(1==lazy?document.write(`<a href='${orlink}'><img alt='${imgalt}' class='${imgcls}' loading='lazy' src='${phlink}'/></a>`):document.write(`<a href='${orlink}'><img alt='${imgalt}' class='${imgcls}' src='${phlink}'/></a>`),""!=imgcapt&&document.write(`<div class='imgcaption'>${imgcapt}</div>`)),flex&&document.write("</div>");}
 let abr=document.querySelectorAll('abbr');
 function abbr(){
-    if(abbr){
+    if(abr){
         for(var i of abr){
             var ket=document.createElement('div');
             ket.classList.add('pjgan');
