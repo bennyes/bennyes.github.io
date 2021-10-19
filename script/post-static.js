@@ -16,6 +16,7 @@ function abbr(){
             ipjg.classList.add('kpnjngn');
             ipjg.innerHTML=ttl[0];
             ket.appendChild(pjg);
+            abr[i].title=ttl[0];
             if(ttl[1]){var desc=ttl[1];ket.appendChild(desc);}
         }
     }
