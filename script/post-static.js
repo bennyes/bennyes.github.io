@@ -11,7 +11,7 @@ function abbr(){
             ket.classList.add('pjgan');
             var ttl=abr[i].title.split('|||');
             abr[i].id=ttl[0].replace(/\s+/g,'-').toLowerCase();
-            abr[i].appendChild(ket);
+            abr[i].insertAdjacentElement('afterend',ket);
             var ipjg=document.createElement('b');
             ipjg.classList.add('kpnjngn');
             ipjg.innerHTML=ttl[0];
