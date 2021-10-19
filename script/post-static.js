@@ -10,6 +10,8 @@ function abbr(){
             ket.classList.add('pjgan');
             var ttl=abr[i].title.split('|||');
             abr[i].id=ttl[0].replace(/\s+/g,'-').toLowerCase();
+            console.log()`abr[i] = ${abr[i].innerHTML}`;
+            console.log()`abr[i].id = ${abr[i].id}`;
             abr[i].insertAdjacentElement('afterend',ket);
             $(abr[i]).click((function(){$(ket).toggleClass("pjganshow")}));
             var ipjg=document.createElement('b');
