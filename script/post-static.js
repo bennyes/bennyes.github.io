@@ -21,3 +21,4 @@ function abbr(){
         }
     }
 }
+$(document).ready(function(){abbr()});
