@@ -4,19 +4,19 @@ function showextvid(btnid,vidid,vidcls,src){var vidmark=document.createElement('
 function showImage(imglink,imgalt,imgcapt,imgcls,lazy,flex){let orlink,phlink;(imglink=imglink.split("|||"))[1]?(orlink=imglink[0],phlink=imglink[1]):(orlink=imglink[0],phlink=imglink[0]),flex&&document.write("<div class='imgflex'>"),flex?(lazy?document.write(`<a href='${orlink}'><div class='flexinside'><img alt='${imgalt}' class='${imgcls}' loading='lazy' src='${phlink}'/></div></a>`):document.write(`<a href='${orlink}'><img alt='${imgalt}' class='${imgcls}' src='${phlink}'/></a>`),""!=imgcapt&&document.write(`<div class='imgcaption'>${imgcapt}</div>`)):(1==lazy?document.write(`<a href='${orlink}'><img alt='${imgalt}' class='${imgcls}' loading='lazy' src='${phlink}'/></a>`):document.write(`<a href='${orlink}'><img alt='${imgalt}' class='${imgcls}' src='${phlink}'/></a>`),""!=imgcapt&&document.write(`<div class='imgcaption'>${imgcapt}</div>`)),flex&&document.write("</div>");}
 let abr=document.querySelectorAll('abbr');
 function abbr(){
-    for(var i of abr){
-        $(abr[i]).click(function(){
-            $(abr[i]).toggleClass("pjganshow");
-        });
-        var ket=document.createElement('div');
-        ket.classList.add('pjgan');
-        var ttl=abr[i].title.split('|||');
-        abr[i].id=ttl[0].replace(/\s+/g,'-').toLowerCase();
-        abr[i].appendChild(ket);
-        var ipjg=document.createElement('b');
-        ipjg.classList.add('kpnjngn');
-        ipjg.innerHTML=ttl[0];
-        ket.appendChild(pjg);
-        if(ttl[1]){var desc=ttl[1];ket.appendChild(desc);}
+    if(abbr){
+        for(var i of abr){
+            $(abr[i]).click((function(){$(abr[i]).toggleClass("pjganshow")}));
+            var ket=document.createElement('div');
+            ket.classList.add('pjgan');
+            var ttl=abr[i].title.split('|||');
+            abr[i].id=ttl[0].replace(/\s+/g,'-').toLowerCase();
+            abr[i].appendChild(ket);
+            var ipjg=document.createElement('b');
+            ipjg.classList.add('kpnjngn');
+            ipjg.innerHTML=ttl[0];
+            ket.appendChild(pjg);
+            if(ttl[1]){var desc=ttl[1];ket.appendChild(desc);}
+        }
     }
 }
