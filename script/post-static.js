@@ -3,15 +3,16 @@ let athr=[],srcyr=[],srctl=[],srclink=[],srcacs=[],linkrel=[],lcs=[];function re
 function showextvid(btnid,vidid,vidcls,src){var vidmark=document.createElement('div');vidmark.classList.add('videomark');vidmark.id=vidid;document.currentScript.insertAdjacentElement('beforebegin',vidmark);var vidframe=document.createElement('iframe');vidmark.appendChild(vidframe);$(`#${btnid}`).click(function(){$(`#${vidid}`).toggleClass("videocontainer");$(`#${vidid} iframe`).attr("src", src);if(src.includes("youtube")||src.includes("youtu.be")){$(`#${vidid} iframe`).attr("ttl","YouTube video player");$(`#${vidid} iframe`).toggleClass("youtubevid");}else{$(`#${vidid} iframe`).toggleClass(vidcls);}$(`#${vidid} iframe`).attr("frameborder", "0");$(`#${vidid} iframe`).attr("allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture");$(`#${vidid} iframe`).attr("allowfullscreen");});}
 function showImage(imglink,imgalt,imgcapt,imgcls,lazy,flex){let orlink,phlink;(imglink=imglink.split("|||"))[1]?(orlink=imglink[0],phlink=imglink[1]):(orlink=imglink[0],phlink=imglink[0]),flex&&document.write("<div class='imgflex'>"),flex?(lazy?document.write(`<a href='${orlink}'><div class='flexinside'><img alt='${imgalt}' class='${imgcls}' loading='lazy' src='${phlink}'/></div></a>`):document.write(`<a href='${orlink}'><img alt='${imgalt}' class='${imgcls}' src='${phlink}'/></a>`),""!=imgcapt&&document.write(`<div class='imgcaption'>${imgcapt}</div>`)):(1==lazy?document.write(`<a href='${orlink}'><img alt='${imgalt}' class='${imgcls}' loading='lazy' src='${phlink}'/></a>`):document.write(`<a href='${orlink}'><img alt='${imgalt}' class='${imgcls}' src='${phlink}'/></a>`),""!=imgcapt&&document.write(`<div class='imgcaption'>${imgcapt}</div>`)),flex&&document.write("</div>");}
 let abr=document.querySelectorAll('abbr');
+console.log(`abr = ${abr}`);
 function abbr(){
-    for(var i of abr){
+    for(let i=0;i<abbr.length;i++){
         if(abr[i]){
         var ket=document.createElement('div');
         ket.classList.add('pjgan');
         var ttl=abr[i].title.split('|||');
         abr[i].id=ttl[0].replace(/\s+/g,'-').toLowerCase();
-        console.log()`abr[i] = ${abr[i].innerHTML}`;
-        console.log()`abr[i].id = ${abr[i].id}`;
+        console.log(`abr[i] = ${abr[i].innerHTML}`);
+        console.log(`abr[i].id = ${abr[i].id}`);
         abr[i].insertAdjacentElement('afterend',ket);
         abr[i].addEventListener("click",function(){
             ket.classList.toggle("pjganshow");
