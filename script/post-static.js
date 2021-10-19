@@ -6,12 +6,12 @@ let abr=document.querySelectorAll('abbr');
 function abbr(){
     if(abbr){
         for(var i of abr){
-            $(abr[i]).click((function(){$(abr[i]).toggleClass("pjganshow")}));
             var ket=document.createElement('div');
             ket.classList.add('pjgan');
             var ttl=abr[i].title.split('|||');
             abr[i].id=ttl[0].replace(/\s+/g,'-').toLowerCase();
             abr[i].insertAdjacentElement('afterend',ket);
+            $(abr[i]).click((function(){$(ket).toggleClass("pjganshow")}));
             var ipjg=document.createElement('b');
             ipjg.classList.add('kpnjngn');
             ipjg.innerHTML=ttl[0];
