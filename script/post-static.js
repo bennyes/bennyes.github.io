@@ -8,8 +8,8 @@ function abbr(abr){
         ket.classList.add('pjgan');
         var ttl=abr[i].title.split('|||');
         abr[i].id=ttl[0].replace(/\s+/g,'-').toLowerCase();
-        console.log(`abr[i] = ${abr[i].innerHTML}`);
-        console.log(`abr[i].id = ${abr[i].id}`);
+        console.log(`abr[${i}] = ${abr[i].innerHTML}`);
+        console.log(`abr[${i}].id = ${abr[i].id}`);
         abr[i].insertAdjacentElement('afterend',ket);
         abr[i].addEventListener("click",function(){
             ket.classList.toggle("pjganshow");
@@ -17,7 +17,7 @@ function abbr(abr){
         var ipjg=document.createElement('b');
         ipjg.classList.add('kpnjngn');
         ipjg.innerHTML=ttl[0];
-        ket.appendChild(pjg);
+        ket.appendChild(ipjg);
         abr[i].title=ttl[0];
         if(ttl[1]){var desc=ttl[1];ket.appendChild(desc);}
     }
