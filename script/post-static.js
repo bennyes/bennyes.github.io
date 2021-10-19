@@ -20,6 +20,9 @@ function abbr(abr){
         ket.appendChild(ipjg);
         abr[i].title=ttl[0];
         if(ttl[1]){var desc=ttl[1];ket.appendChild(desc);}
+        var pojok=document.createElement('span');
+        pojok.classList.add('pojok');
+        ket.appendChild(pojok);
     }
 }
 window.onload=function(){
