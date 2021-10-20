@@ -17,7 +17,7 @@ if(srclink.includes(srclink[co])&&srclink.indexOf(srclink[co])!=co){
 }else{
     if(srclink[co].includes('ISBN')){
         var isbnlk=srclink[co].split(' ');
-    li[cox].innerHTML=`<span id='ref${cox+1}' class='jumpto'></span>${athr[co]}. ${srcyr[co]}. <b>${srctl[co]}</b>. <a href='https://isbnsearch.org/isbn/${isbnlk[1]}' target='_blank' rel='${linkrel[co]}'>${isbnlk[0]}</a>. Diakses tanggal <time title='${srcacs[co]}' datetime='${srcacs[co]}'>${tgl} ${bltxt} ${thn} pukul ${jam}:${mnt}.</time>`;
+    li[cox].innerHTML=`<span id='ref${cox+1}' class='jumpto'></span>${athr[co]}. ${srcyr[co]}. <b>${srctl[co]}</b>. <a href='https://isbnsearch.org/isbn/${isbnlk[1]}' target='_blank' rel='${linkrel[co]}'>${srclink[co]}</a>. Diakses tanggal <time title='${srcacs[co]}' datetime='${srcacs[co]}'>${tgl} ${bltxt} ${thn} pukul ${jam}:${mnt}.</time>`;
     }else{
         li[cox].innerHTML=`<span id='ref${cox+1}' class='jumpto'></span>${athr[co]}. ${srcyr[co]}. <b>${srctl[co]}</b>. <a href='${srclink[co]}' target='_blank' rel='${linkrel[co]}'>${srclink[co]}</a>. Diakses tanggal <time title='${srcacs[co]}' datetime='${srcacs[co]}'>${tgl} ${bltxt} ${thn} pukul ${jam}:${mnt}.</time>`;
     }
