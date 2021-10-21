@@ -37,7 +37,7 @@ function dais(){
                 li.appendChild(ol2);
                 for(var j=0;j<parts2.length;j++){
                     var h3=parts2[j].querySelectorAll('h3');
-                    console.log(h3!=''&&h3!=undefined&&h3!=null);
+                    console.log(h3);
                     if(h3){
                         for (var k=0;k<h3.length;k++){
                             var li2=document.createElement('li');
