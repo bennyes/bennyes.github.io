@@ -17,7 +17,7 @@ function dais(){
     dft.appendChild(ol);
     var parts=document.querySelectorAll('.parts');
     for(var i=0;i<parts.length;i++){
-        var h2=document.getElementsByClassName(`.parts`)[i].querySelectorAll('h2');
+        var h2=document.getElementsByClassName('parts')[i].querySelectorAll('h2');
         console.log(h2.innerText);
         if(h2[i].innerText.includes('Sumber informasi')||h2[i].innerText.includes('Daftar pustaka')||h2[i].innerText.includes('Referensi')){break;}
         var li=document.createElement('li');
