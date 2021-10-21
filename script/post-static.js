@@ -18,22 +18,24 @@ function dais(){
     var parts=document.getElementsByClassName('parts')
     for(var h=0;h<parts.length;h++){
         var h2=parts[h].querySelectorAll('h2');
-        console.log(h2[i].innerText);
-        if(h2[i].innerText.includes('Sumber informasi')||h2[i].innerText.includes('Daftar pustaka')||h2[i].innerText.includes('Referensi')){break;}
-        var li=document.createElement('li');
-        ol.appendChild(li);
-        var jump=document.createElement('span');
-        jump.classList.add('jumpto');
-        jump.id=h2[i].innerText.replace(/\s/g,'-').toLowerCase();
-        h2[i].insertAdjacentElement('beforebegin',jump);
-        var lia=document.createElement('a');
-        lia.href=`#${jump.id}`;
-        lia.innerHTML=h2[i].innerHTML;
-        li.appendChild(lia);
-        var parts2=parts[i].querySelectorAll('.parts');
-        for(var j=0;j<parts2.length;j++){
-            var h3=parts2[j].querySelectorAll('h3');
-            console.log(h3[0]);
+        for(var i=0;i<h2.length;i++){
+            console.log(h2[i].innerText);
+            if(h2[i].innerText.includes('Sumber informasi')||h2[i].innerText.includes('Daftar pustaka')||h2[i].innerText.includes('Referensi')){break;}
+            var li=document.createElement('li');
+            ol.appendChild(li);
+            var jump=document.createElement('span');
+            jump.classList.add('jumpto');
+            jump.id=h2[i].innerText.replace(/\s/g,'-').toLowerCase();
+            h2[i].insertAdjacentElement('beforebegin',jump);
+            var lia=document.createElement('a');
+            lia.href=`#${jump.id}`;
+            lia.innerHTML=h2[i].innerHTML;
+            li.appendChild(lia);
+            var parts2=parts[i].querySelectorAll('.parts');
+            for(var j=0;j<parts2.length;j++){
+                var h3=parts2[j].querySelectorAll('h3');
+                console.log(h3[0]);
+            }
         }
     }
 }
