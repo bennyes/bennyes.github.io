@@ -10,6 +10,7 @@ function dais(){
     var dft=document.getElementById('daftar-isi');
     var top=document.createElement('b')
     top.classList.add('dittl');
+    top.innerHTML='Daftar isi'
     dft.appendChild(top);
     var ol=document.createElement('ol');
     dft.appendChild(ol);
@@ -19,7 +20,7 @@ function dais(){
         dft.appendChild(li);
         var jump=document.createElement('span');
         jump.classList.add('jumpto');
-        jump.id=h2[i].innerHTML.replace(/\s/g,'-').toLowerCase();
+        jump.id=h2[i].innerText.replace(/\s/g,'-').toLowerCase();
         h2[i].insertAdjacentElement('beforebegin',jump);
         var lia=document.createElement('a');
         lia.href=jump.id;
