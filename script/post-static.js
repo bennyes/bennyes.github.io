@@ -18,25 +18,38 @@ function dais(){
     var parts=document.getElementsByClassName('parts')
     for(var h=0;h<parts.length;h++){
         var h2=parts[h].querySelectorAll('h2');
-        for(var i=0;i<h2.length;i++){
-            console.log(h2[i].innerText);
-            if(h2[i].innerText.includes('Sumber informasi')||h2[i].innerText.includes('Daftar pustaka')||h2[i].innerText.includes('Referensi')){break;}
-            var li=document.createElement('li');
-            ol.appendChild(li);
-            var jump=document.createElement('span');
-            jump.classList.add('jumpto');
-            jump.id=h2[i].innerText.replace(/\s/g,'-').toLowerCase();
-            h2[i].insertAdjacentElement('beforebegin',jump);
-            var lia=document.createElement('a');
-            lia.href=`#${jump.id}`;
-            lia.innerHTML=h2[i].innerHTML;
-            li.appendChild(lia);
-            var parts2=parts[i].querySelectorAll('.parts');
-            for(var j=0;j<parts2.length;j++){
-                var h3=parts2[j].querySelectorAll('h3');
-                if(h3){
-                    for (var k=0;k<h3.length;k++){
-                        console.log(h3[k]);
+        if(h2){
+            for(var i=0;i<h2.length;i++){
+                console.log(h2[i].innerText);
+                if(h2[i].innerText.includes('Sumber informasi')||h2[i].innerText.includes('Daftar pustaka')||h2[i].innerText.includes('Referensi')){break;}
+                var li=document.createElement('li');
+                ol.appendChild(li);
+                var jump=document.createElement('span');
+                jump.classList.add('jumpto');
+                jump.id=h2[i].innerText.replace(/\s/g,'-').toLowerCase();
+                h2[i].insertAdjacentElement('beforebegin',jump);
+                var lia=document.createElement('a');
+                lia.href=`#${jump.id}`;
+                lia.innerHTML=h2[i].innerHTML;
+                li.appendChild(lia);
+                var parts2=parts[i].querySelectorAll('.parts');
+                var ol2=document.createElement('ol');
+                li.appendChild(ol2);
+                for(var j=0;j<parts2.length;j++){
+                    var h3=parts2[j].querySelectorAll('h3');
+                    if(h3){
+                        for (var k=0;k<h3.length;k++){
+                            li2=document.createElement('li');
+                            ol2.appendChild(li2);
+                            jump=document.createElement('span');
+                            jump.classList.add('jumpto');
+                            jump.id=h3[k].innerText.replace(/\s/g,'-').toLowerCase();
+                            h3[k].insertAdjacentElement('beforebegin',jump);
+                            lia2=document.createElement('a');
+                            lia2.href=`#${jump.id}`;
+                            lia2.innerHTML=h3[k].innerHTML;
+                            li2.appendChild(lia2);
+                        }
                     }
                 }
             }
