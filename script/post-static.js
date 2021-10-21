@@ -32,7 +32,7 @@ function dais(){
                 lia.href=`#${jump.id}`;
                 lia.innerHTML=h2[i].innerHTML;
                 li.appendChild(lia);
-                var parts2=parts[i].querySelectorAll('.parts');
+                var parts2=parts[i].getElementsByClassName('parts');
                 var ol2=document.createElement('ol');
                 li.appendChild(ol2);
                 for(var j=0;j<parts2.length;j++){
