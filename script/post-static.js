@@ -34,7 +34,11 @@ function dais(){
             var parts2=parts[i].querySelectorAll('.parts');
             for(var j=0;j<parts2.length;j++){
                 var h3=parts2[j].querySelectorAll('h3');
-                console.log(h3[0]);
+                if(h3){
+                    for (var k=0;k<h3.length;k++){
+                        console.log(h3[k]);
+                    }
+                }
             }
         }
     }
