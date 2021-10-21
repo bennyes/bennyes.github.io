@@ -19,7 +19,7 @@ function dais(){
     for(var i=0;i<h2.length;i++){
         if(h2[i].innerText.includes('Sumber informasi')||h2[i].innerText.includes('Daftar pustaka')||h2[i].innerText.includes('Referensi')){break;}
         var li=document.createElement('li');
-        dft.appendChild(li);
+        ol.appendChild(li);
         var jump=document.createElement('span');
         jump.classList.add('jumpto');
         jump.id=h2[i].innerText.replace(/\s/g,'-').toLowerCase();
