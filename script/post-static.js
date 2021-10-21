@@ -17,7 +17,10 @@ function dais(){
     dft.appendChild(ol);
     var h2=document.querySelectorAll('h2');
     for(var i=0;i<h2.length;i++){
-        if(h2[i].innerText.includes(/sumber informasi/i)||h2[i].innerText.includes(/referensi/i)||h2[i].innerText.includes(/daftar pustaka/i)){break;}
+        var sumb=/sumber informasi/i;
+        var dafp=/daftar pustaka/i;
+        var refr=/referensi/i;
+        if(h2[i].innerText.includes(sumb)||h2[i].innerText.includes(dafp)||h2[i].innerText.includes(refr)){break;}
         var li=document.createElement('li');
         dft.appendChild(li);
         var jump=document.createElement('span');
