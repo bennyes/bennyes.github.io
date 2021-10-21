@@ -33,7 +33,6 @@ function dais(){
                 lia.innerHTML=h2[i].innerHTML;
                 li.appendChild(lia);
                 var parts2=parts[i].getElementsByClassName('parts');
-                console.log(parts2[0].innerHTML);
                 var ol2=document.createElement('ol');
                 li.appendChild(ol2);
                 for(var j=0;j<parts2.length;j++){
