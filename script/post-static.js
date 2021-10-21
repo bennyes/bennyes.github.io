@@ -16,8 +16,8 @@ function dais(){
     var ol=document.createElement('ol');
     dft.appendChild(ol);
     var parts=document.querySelectorAll('.parts');
-    var h2=parts.querySelectorAll('h2')
-    for(var i=0;i<h2.length;i++){
+    for(var i=0;i<parts.length;i++){
+        var h2=parts[i].querySelectorAll('h2')
         if(h2[i].innerText.includes('Sumber informasi')||h2[i].innerText.includes('Daftar pustaka')||h2[i].innerText.includes('Referensi')){break;}
         var li=document.createElement('li');
         ol.appendChild(li);
@@ -29,7 +29,7 @@ function dais(){
         lia.href=`#${jump.id}`;
         lia.innerHTML=h2[i].innerHTML;
         li.appendChild(lia);
-        var h3=parts.querySelectorAll('.parts>h3');
+        var h3=parts[i].querySelectorAll('.parts > h3');
         console.log(h3[0]);
     }
 }
