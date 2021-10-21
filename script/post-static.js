@@ -39,13 +39,13 @@ function dais(){
                     var h3=parts2[j].querySelectorAll('h3');
                     if(h3){
                         for (var k=0;k<h3.length;k++){
-                            li2=document.createElement('li');
+                            var li2=document.createElement('li');
                             ol2.appendChild(li2);
-                            jump=document.createElement('span');
-                            jump.classList.add('jumpto');
-                            jump.id=h3[k].innerText.replace(/\s/g,'-').toLowerCase();
+                            var jump2=document.createElement('span');
+                            jump2.classList.add('jumpto');
+                            jump2.id=h3[k].innerText.replace(/\s/g,'-').toLowerCase();
                             h3[k].insertAdjacentElement('beforebegin',jump);
-                            lia2=document.createElement('a');
+                            var lia2=document.createElement('a');
                             lia2.href=`#${jump.id}`;
                             lia2.innerHTML=h3[k].innerHTML;
                             li2.appendChild(lia2);
