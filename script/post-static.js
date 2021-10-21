@@ -15,7 +15,7 @@ function dais(){
     dft.appendChild(top);
     var ol=document.createElement('ol');
     dft.appendChild(ol);
-    // var parts=document.querySelectorAll('.parts');
+    var parts=document.querySelectorAll('.parts');
     for(var i=0;i<parts.length;i++){
         var h2=document.getElementsByClassName(`.parts`)[i].querySelectorAll('h2');
         console.log(h2.innerText);
