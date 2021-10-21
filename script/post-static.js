@@ -17,6 +17,7 @@ function dais(){
     dft.appendChild(ol);
     var h2=document.querySelectorAll('h2');
     for(var i=0;i<h2.length;i++){
+        if(h2[i].innerText.includes(/sumber informasi/i)||h2[i].innerText.includes(/referensi/i)||h2[i].innerText.includes(/daftar pustaka/i)){break;}
         var li=document.createElement('li');
         dft.appendChild(li);
         var jump=document.createElement('span');
