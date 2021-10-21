@@ -9,9 +9,9 @@ var ordtg;function fillbcbs(bldt){var bcbs=document.getElementById('bcbs');var p
 function dais(){
     var dft=document.getElementById('daftar-isi');
     dft.classList.add('daftar-isi','parts');
-    var top=document.createElement('b')
+    var top=document.createElement('b');
     top.classList.add('dittl');
-    top.innerHTML='Daftar isi'
+    top.innerHTML='Daftar isi';
     dft.appendChild(top);
     var ol=document.createElement('ol');
     dft.appendChild(ol);
@@ -24,7 +24,7 @@ function dais(){
         jump.id=h2[i].innerText.replace(/\s/g,'-').toLowerCase();
         h2[i].insertAdjacentElement('beforebegin',jump);
         var lia=document.createElement('a');
-        lia.href=jump.id;
+        lia.href=`#${jump.id}`;
         lia.innerHTML=h2[i].innerHTML;
         li.appendChild(lia);
     }
