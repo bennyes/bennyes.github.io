@@ -28,7 +28,7 @@ function dais(){
         lia.href=`#${jump.id}`;
         lia.innerHTML=h2[i].innerHTML;
         li.appendChild(lia);
-        var h3=document.querySelectorAll(h2[i]+'>h3');
+        var h3=document.querySelectorAll(`h2${[i]}>h3`);
         if(h3)console.log('present');
     }
 }
