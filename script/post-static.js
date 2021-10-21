@@ -8,6 +8,7 @@ function showImage(imglink,imgalt,imgcapt,imgcls,lazy,flex){let orlink,phlink;(i
 var ordtg;function fillbcbs(bldt){var bcbs=document.getElementById('bcbs');var pttl=document.getElementsByClassName('post-title')[0];var pos=bldt.feed.entry;var hlink=document.createElement('a');hlink.innerHTML='Home';hlink.href='/';bcbs.appendChild(hlink);for(var i=0;i<pos.length;i++){if(pos[i].title.$t==pttl.innerHTML){var pcat=pos[i].category;for(var j=0;j<pcat.length;j++){var gg=document.createElement('span');gg.classList.add('gg');gg.innerHTML='&#187;';bcbs.appendChild(gg);var clink=document.createElement('a');if(!ordtg){clink.innerHTML=pcat[j].term;}else{clink.innerHTML=pcat[ordtg[j]].term;}clink.href=`https://www.bennyes.my.id/search/label/${clink.innerHTML}`;bcbs.appendChild(clink);}gg=document.createElement('span');gg.classList.add('gg');gg.innerHTML='&#187;';bcbs.appendChild(gg);var pts=document.createElement('span');pts.innerHTML=`<b>${pos[i].title.$t}</b>`;bcbs.appendChild(pts);}}}
 function dais(){
     var dft=document.getElementById('daftar-isi');
+    dft.classList.add('daftar-isi','parts');
     var top=document.createElement('b')
     top.classList.add('dittl');
     top.innerHTML='Daftar isi'
