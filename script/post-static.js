@@ -56,4 +56,4 @@ function dais(){
         }
     }
 }
-function bIdt(){var bname=document.getElementsByClassName("bname");if(bname)for(var i=0;i<bname.length;i++)bname[i].classList.add("notranslate")}window.onload=bIdt();
+function bIdt(){var bname=document.getElementsByClassName("bname");for(var i=0;i<bname.length;i++)bname[i].classList.add("notranslate")}window.onload=bIdt();
