@@ -42,10 +42,12 @@ function dais(){var dft=document.getElementById('daftar-isi');dft.classList.add(
                                var tj=h3[k].innerHTML.split('. ')
                                console.log(`tj[0] = ${tj[0]}`);
                                console.log(`tj[1] = ${tj[1]}`);
-                                if(ch.test(tj[0])==true){
+                                if(ch.test(tj[0])){
                                     lia2.innerHTML=tj[1];
                                     console.log(`lia2 = ${lia2.innerHTML}`);
-                                }                                
+                                }else{
+                                    lia2.innerHTML=tj[0];
+                                }
                                 li2.appendChild(lia2);
                             }
                         }
