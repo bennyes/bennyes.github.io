@@ -42,6 +42,7 @@ function dais(){var dft=document.getElementById('daftar-isi');dft.classList.add(
                                 lia2.innerHTML=h3[k].innerHTML;
                                 if(lia2.innerHTML.startsWith(/^[d]\.*/i)){
                                     lia2.innerHTML=lia2.innerHTML.replace(/^[d]\.*/,"");
+                                    console.log(`lia2 = ${lia2.innerHTML}`);
                                 }
                                 li2.appendChild(lia2);
                             }
