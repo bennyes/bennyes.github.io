@@ -23,7 +23,6 @@ function dais(){var dft=document.getElementById('daftar-isi');dft.classList.add(
                 li.appendChild(lia);
                 var parts2=parts[h].getElementsByClassName('parts');
                 if(parts2){
-                    console.log(`parts2 inner = ${parts2[0].innerHTML}`);
                     var ol2=document.createElement('ol');
                     li.appendChild(ol2);
                     for(var j=0;j<parts2.length;j++){
@@ -39,11 +38,10 @@ function dais(){var dft=document.getElementById('daftar-isi');dft.classList.add(
                                 h3[k].insertAdjacentElement('beforebegin',jump);
                                 var lia2=document.createElement('a');
                                 lia2.href=`#${jump.id}`;
-                                lia2.innerHTML=h3[k].innerHTML;
-                                if(lia2.innerHTML.startsWith(/^[d]\.*/i)){
-                                    lia2.innerHTML=lia2.innerHTML.replace(/^[d]\.*/,"");
+                                if(h3[k].innerHTML.startsWith(/^[d]\.*/i)){
+                                    lia2.innerHTML=h3[k].innerHTML.replace(/^[d]\.*/i,"");
                                     console.log(`lia2 = ${lia2.innerHTML}`);
-                                }
+                                }                                
                                 li2.appendChild(lia2);
                             }
                         }
