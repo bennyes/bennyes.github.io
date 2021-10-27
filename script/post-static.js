@@ -23,13 +23,13 @@ function dais(){var dft=document.getElementById('daftar-isi');dft.classList.add(
                 li.appendChild(lia);
                 var parts2=parts[i].getElementsByClassName('parts');
                 if(parts2){
-                    console.log(`parts2 = ${parts2[0]}`);
+                    console.log(`parts2 inner = ${parts2[0].innerHTML}`);
                     var ol2=document.createElement('ol');
                     li.appendChild(ol2);
                 }
                 for(var j=0;j<parts2.length;j++){
                     var h3=parts2[j].querySelectorAll('h3');
-                    console.log(`h3 = ${h3[0]}`);
+                    console.log(`h3 inner = ${h3[0].innerHTML}`);
                     if(h3){
                         for (var k=0;k<h3.length;k++){
                             var li2=document.createElement('li');
