@@ -37,9 +37,10 @@ function dais(){var dft=document.getElementById('daftar-isi');dft.classList.add(
                                 jump2.id=h3[k].innerText.replace(/\s/g,'-').toLowerCase();
                                 h3[k].insertAdjacentElement('beforebegin',jump);
                                 var lia2=document.createElement('a');
+                                var ch=/^[d]\.*/i;
                                 lia2.href=`#${jump.id}`;
-                                if(h3[k].innerHTML.startsWith(/^[d]\.*/i)){
-                                    lia2.innerHTML=h3[k].innerHTML.replace(/^[d]\.*/i,"");
+                                if(h3[k].innerHTML.startsWith(ch)){
+                                    lia2.innerHTML=h3[k].innerHTML.replace(ch,"");
                                     console.log(`lia2 = ${lia2.innerHTML}`);
                                 }                                
                                 li2.appendChild(lia2);
