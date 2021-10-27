@@ -29,7 +29,6 @@ function dais(){var dft=document.getElementById('daftar-isi');dft.classList.add(
                         var h3=parts2[j].querySelectorAll('h3');
                         if(h3){
                             for (var k=0;k<h3.length;k++){
-                                console.log(`h3 parts2 ${j} length = ${h3.length}`)
                                 var li2=document.createElement('li');
                                 ol2.appendChild(li2);
                                 var jump2=document.createElement('span');
