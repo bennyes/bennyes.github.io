@@ -5,16 +5,7 @@ if(!link.endsWith('/')&&(!link.endsWith('.php')&&!link.endsWith('.htm')&&!link.e
 function showextvid(btnid,vidid,vidcls,src){var vidmark=document.createElement('div');vidmark.classList.add('videomark');vidmark.id=vidid;document.currentScript.insertAdjacentElement('beforebegin',vidmark);var vidframe=document.createElement('iframe');vidmark.appendChild(vidframe);$(`#${btnid}`).click(function(){$(`#${vidid}`).toggleClass("videocontainer");$(`#${vidid} iframe`).attr("src", src);if(src.includes("youtube")||src.includes("youtu.be")){$(`#${vidid} iframe`).attr("ttl","YouTube video player");$(`#${vidid} iframe`).toggleClass("youtubevid");}else{$(`#${vidid} iframe`).toggleClass(vidcls);}$(`#${vidid} iframe`).attr("frameborder", "0");$(`#${vidid} iframe`).attr("allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture");$(`#${vidid} iframe`).attr("allowfullscreen");});}
 function showImage(imglink,imgalt,imgcapt,imgcls,lazy,flex){let orlink,phlink;(imglink=imglink.split("|||"))[1]?(orlink=imglink[0],phlink=imglink[1]):(orlink=imglink[0],phlink=imglink[0]),flex&&document.write("<div class='imgflex'>"),flex?(lazy?document.write(`<a href='${orlink}'><div class='flexinside'><img alt='${imgalt}' class='${imgcls}' loading='lazy' src='${phlink}'/></div></a>`):document.write(`<a href='${orlink}'><img alt='${imgalt}' class='${imgcls}' src='${phlink}'/></a>`),""!=imgcapt&&document.write(`<div class='imgcaption'>${imgcapt}</div>`)):(1==lazy?document.write(`<a href='${orlink}'><img alt='${imgalt}' class='${imgcls}' loading='lazy' src='${phlink}'/></a>`):document.write(`<a href='${orlink}'><img alt='${imgalt}' class='${imgcls}' src='${phlink}'/></a>`),""!=imgcapt&&document.write(`<div class='imgcaption'>${imgcapt}</div>`)),flex&&document.write("</div>");}
 var ordtg;function fillbcbs(bldt){var bcbs=document.getElementById('bcbs');var pttl=document.getElementsByClassName('post-title')[0];var pos=bldt.feed.entry;var hlink=document.createElement('a');hlink.innerHTML='Home';hlink.href='/';bcbs.appendChild(hlink);for(var i=0;i<pos.length;i++){if(pos[i].title.$t==pttl.innerHTML){var pcat=pos[i].category;for(var j=0;j<pcat.length;j++){var gg=document.createElement('span');gg.classList.add('gg');gg.innerHTML='&#187;';bcbs.appendChild(gg);var clink=document.createElement('a');if(!ordtg){clink.innerHTML=pcat[j].term;}else{clink.innerHTML=pcat[ordtg[j]].term;}clink.href=`https://www.bennyes.my.id/search/label/${clink.innerHTML}`;bcbs.appendChild(clink);}gg=document.createElement('span');gg.classList.add('gg');gg.innerHTML='&#187;';bcbs.appendChild(gg);var pts=document.createElement('span');pts.innerHTML=`<b>${pos[i].title.$t}</b>`;bcbs.appendChild(pts);}}}
-function dais(){
-    var dft=document.getElementById('daftar-isi');
-    dft.classList.add('daftar-isi','parts');
-    var top=document.createElement('b');
-    top.classList.add('dittl');
-    top.innerHTML='Daftar isi';
-    dft.appendChild(top);
-    var ol=document.createElement('ol');
-    dft.appendChild(ol);
-    var parts=document.getElementsByClassName('parts')
+function dais(){var dft=document.getElementById('daftar-isi');dft.classList.add('daftar-isi','parts');var top=document.createElement('b');top.classList.add('dittl');top.innerHTML='Daftar isi';dft.appendChild(top);var ol=document.createElement('ol');dft.appendChild(ol);var parts=document.getElementsByClassName('parts');
     for(var h=0;h<parts.length;h++){
         var h2=parts[h].querySelectorAll('h2');
         if(h2){
@@ -37,7 +28,7 @@ function dais(){
                 for(var j=0;j<parts2.length;j++){
                     var h3=parts2[j].querySelectorAll('h3');
                     console.log(h3);
-                    if(h3){
+                    
                         for (var k=0;k<h3.length;k++){
                             var li2=document.createElement('li');
                             ol2.appendChild(li2);
@@ -50,7 +41,7 @@ function dais(){
                             lia2.innerHTML=h3[k].innerHTML;
                             li2.appendChild(lia2);
                         }
-                    }
+                    
                 }
             }
         }
