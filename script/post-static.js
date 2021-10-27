@@ -43,7 +43,7 @@ function dais(){var dft=document.getElementById('daftar-isi');dft.classList.add(
                                var tj=h3[k].innerHTML.split('. ')
                                console.log(`tj[0] = ${tj[0]}`);
                                console.log(`tj[1] = ${tj[1]}`);
-                                if(ch.test(tj[0])&&ci.test(tj[0])){
+                                if(ch.test(tj[0])==true&&ci.test(tj[0])==true){
                                     lia2.innerHTML=tj[1];
                                     console.log(`lia2 = ${lia2.innerHTML}`);
                                 }                                
