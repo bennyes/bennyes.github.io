@@ -10,7 +10,6 @@ function dais(){var dft=document.getElementById('daftar-isi');dft.classList.add(
         var h2=parts[h].querySelectorAll('h2');
         if(h2){
             for(var i=0;i<h2.length;i++){
-                console.log(h2[i].innerText);
                 if(h2[i].innerText.includes('Sumber informasi')||h2[i].innerText.includes('Daftar pustaka')||h2[i].innerText.includes('Referensi')){break;}
                 var li=document.createElement('li');
                 ol.appendChild(li);
@@ -23,12 +22,15 @@ function dais(){var dft=document.getElementById('daftar-isi');dft.classList.add(
                 lia.innerHTML=h2[i].innerHTML;
                 li.appendChild(lia);
                 var parts2=parts[i].getElementsByClassName('parts');
-                var ol2=document.createElement('ol');
-                li.appendChild(ol2);
+                if(parts2){
+                    console.log(`parts2 = ${parts2}`);
+                    var ol2=document.createElement('ol');
+                    li.appendChild(ol2);
+                }
                 for(var j=0;j<parts2.length;j++){
                     var h3=parts2[j].querySelectorAll('h3');
                     console.log(h3);
-                    
+                    if(h3){
                         for (var k=0;k<h3.length;k++){
                             var li2=document.createElement('li');
                             ol2.appendChild(li2);
@@ -41,7 +43,7 @@ function dais(){var dft=document.getElementById('daftar-isi');dft.classList.add(
                             lia2.innerHTML=h3[k].innerHTML;
                             li2.appendChild(lia2);
                         }
-                    
+                    }
                 }
             }
         }
