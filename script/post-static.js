@@ -40,6 +40,8 @@ function dais(){var dft=document.getElementById('daftar-isi');dft.classList.add(
                                 var ch=/^[d]\.*/i;
                                 lia2.href=`#${jump.id}`;
                                var tj=h3[k].innerHTML.split('. ')
+                               console.log(`tj[0] = ${tj[0]}`);
+                               console.log(`tj[1] = ${tj[1]}`);
                                 if(tj[0]==ch){
                                     lia2.innerHTML=tj[1];
                                     console.log(`lia2 = ${lia2.innerHTML}`);
