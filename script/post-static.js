@@ -41,7 +41,7 @@ function dais(){var dft=document.getElementById('daftar-isi');dft.classList.add(
                                 lia2.href=`#${jump.id}`;
                                var tj=h3[k].innerHTML.split('. ')
                                 if(tj[0]==ch){
-                                    lia2.innerHTML=tj[1].innerHTML;
+                                    lia2.innerHTML=tj[1];
                                     console.log(`lia2 = ${lia2.innerHTML}`);
                                 }                                
                                 li2.appendChild(lia2);
