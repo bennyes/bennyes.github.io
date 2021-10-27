@@ -39,8 +39,9 @@ function dais(){var dft=document.getElementById('daftar-isi');dft.classList.add(
                                 var lia2=document.createElement('a');
                                 var ch=/^[d]\.*/i;
                                 lia2.href=`#${jump.id}`;
-                                if(h3[k].innerHTML.startsWith(ch)){
-                                    lia2.innerHTML=h3[k].innerHTML.replace(ch,"");
+                               var tj=h3[k].innerHTML.split('. ')
+                                if(tj[0].includes(ch)){
+                                    lia2.innerHTML=tj[1].innerHTML;
                                     console.log(`lia2 = ${lia2.innerHTML}`);
                                 }                                
                                 li2.appendChild(lia2);
