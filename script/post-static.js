@@ -38,7 +38,7 @@ function dais(){var dft=document.getElementById('daftar-isi');dft.classList.add(
                                 h3[k].insertAdjacentElement('beforebegin',jump);
                                 var lia2=document.createElement('a');
                                 var ch=new RegExp("[0-9]+");
-                                var ci=new RegExp("[.]")
+                                var ci=new RegExp("[.]+")
                                 lia2.href=`#${jump.id}`;
                                var tj=h3[k].innerHTML.split('. ')
                                console.log(`tj[0] = ${tj[0]}`);
