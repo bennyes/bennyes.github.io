@@ -8,7 +8,7 @@ var ordtg;function fillbcbs(bldt){var bcbs=document.getElementById('bcbs');var p
 function dais(){var dft=document.getElementById('daftar-isi');dft.classList.add('daftar-isi','parts');var top=document.createElement('b');top.classList.add('dittl');top.innerHTML='Daftar isi';dft.appendChild(top);
 var toggleshow=document.createElement('a');
 toggleshow.id='toggledais';
-toggleshow.innerHTML='[Lihat]';
+toggleshow.innerHTML='[Lihat/tutup]';
 dft.appendChild(toggleshow);
 var ol=document.createElement('ol');dft.appendChild(ol);var parts=document.getElementsByClassName('parts');
     for(var h=0;h<parts.length;h++){
@@ -56,9 +56,6 @@ var ol=document.createElement('ol');dft.appendChild(ol);var parts=document.getEl
     $('#toggledais').click(function(){
         var daisul=document.querySelector('#daftar-isi > ol');
         $('#daftar-isi ol').toggle();
-        if(daisul.innerHTML=='[Lihat]'){daisul.innerHTML='[Tutup]';}
-        else if(daisul.innerHTML==''){daisul.innerHTML='[Lihat]'}
-        else if(daisul.innerHTML=='[Tutup]'){daisul.innerHTML='[Lihat]';}
     });
 }
 function bIdt(){var bname=document.getElementsByClassName("bname");for(var i=0;i<bname.length;i++)bname[i].classList.add("notranslate")}window.onload=bIdt();
