@@ -55,7 +55,7 @@ var ol=document.createElement('ol');dft.appendChild(ol);var parts=document.getEl
     }
     $('#toggledais').click(function(){
         var daisul=document.querySelector('#daftar-isi > ol');
-        daisul.toggle();
+        $('#daftar-isi ol').toggle();
         if(daisul.innerHTML=='[Lihat]'){daisul.innerHTML='[Tutup]';}
         else if(daisul.innerHTML==''){daisul.innerHTML='[Lihat]'}
         else if(daisul.innerHTML=='[Tutup]'){daisul.innerHTML='[Lihat]';}
