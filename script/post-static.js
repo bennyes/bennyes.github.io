@@ -23,7 +23,7 @@ function dais(){var dft=document.getElementById('daftar-isi');dft.classList.add(
                 li.appendChild(lia);
                 var parts2=parts[i].getElementsByClassName('parts');
                 if(parts2){
-                    console.log(`parts2 = ${parts2}`);
+                    console.log(`parts2 = ${parts2[0]}`);
                     var ol2=document.createElement('ol');
                     li.appendChild(ol2);
                 }
