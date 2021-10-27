@@ -21,29 +21,29 @@ function dais(){var dft=document.getElementById('daftar-isi');dft.classList.add(
                 lia.href=`#${jump.id}`;
                 lia.innerHTML=h2[i].innerHTML;
                 li.appendChild(lia);
-                var parts2=parts[i].getElementsByClassName('parts');
+                var parts2=parts[h].getElementsByClassName('parts');
                 if(parts2){
                     console.log(`parts2 inner = ${parts2[0].innerHTML}`);
                     var ol2=document.createElement('ol');
                     li.appendChild(ol2);
-                }
-                for(var j=0;j<parts2.length;j++){
-                    var h3=parts2[j].querySelectorAll('h3');
-                    console.log(`h3 inner = ${h3[0].innerHTML}`);
-                    if(h3){
-                        for (var k=0;k<h3.length;k++){
-                            var li2=document.createElement('li');
-                            ol2.appendChild(li2);
-                            var jump2=document.createElement('span');
-                            jump2.classList.add('jumpto');
-                            jump2.id=h3[k].innerText.replace(/\s/g,'-').toLowerCase();
-                            h3[k].insertAdjacentElement('beforebegin',jump);
-                            var lia2=document.createElement('a');
-                            lia2.href=`#${jump.id}`;
-                            lia2.innerHTML=h3[k].innerHTML;
-                            li2.appendChild(lia2);
+                    for(var j=0;j<parts2.length;j++){
+                        var h3=parts2[j].querySelectorAll('h3');
+                        console.log(`h3 inner = ${h3[0].innerHTML}`);
+                        if(h3){
+                            for (var k=0;k<h3.length;k++){
+                                var li2=document.createElement('li');
+                                ol2.appendChild(li2);
+                                var jump2=document.createElement('span');
+                                jump2.classList.add('jumpto');
+                                jump2.id=h3[k].innerText.replace(/\s/g,'-').toLowerCase();
+                                h3[k].insertAdjacentElement('beforebegin',jump);
+                                var lia2=document.createElement('a');
+                                lia2.href=`#${jump.id}`;
+                                lia2.innerHTML=h3[k].innerHTML;
+                                li2.appendChild(lia2);
+                            }
                         }
-                    }
+                }
                 }
             }
         }
