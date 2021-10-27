@@ -27,7 +27,6 @@ function dais(){var dft=document.getElementById('daftar-isi');dft.classList.add(
                     li.appendChild(ol2);
                     for(var j=0;j<parts2.length;j++){
                         var h3=parts2[j].querySelectorAll('h3');
-                        console.log(`h3 inner = ${h3[0].innerHTML}`);
                         if(h3){
                             for (var k=0;k<h3.length;k++){
                                 var li2=document.createElement('li');
@@ -40,8 +39,6 @@ function dais(){var dft=document.getElementById('daftar-isi');dft.classList.add(
                                 var ch=new RegExp("[0-9]+");
                                 lia2.href=`#${jump.id}`;
                                var tj=h3[k].innerHTML.split('. ')
-                               console.log(`tj[0] = ${tj[0]}`);
-                               console.log(`tj[1] = ${tj[1]}`);
                                 if(ch.test(tj[0])){
                                     lia2.innerHTML=tj[1];
                                     console.log(`lia2 = ${lia2.innerHTML}`);
