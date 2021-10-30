@@ -42,7 +42,7 @@ var ol=document.createElement('ol');dft.appendChild(ol);var parts=document.getEl
                                 h3[k].insertAdjacentElement('beforebegin',jump);
                                 var lia2=document.createElement('a');
                                 var ch=new RegExp("[0-9]+");
-                                lia2.href=`#${jump.id}`;
+                                lia2.href=`#${jump2.id}`;
                                 var tj=h3[k].innerHTML.split('. ')
                                 lia2.innerHTML=ch.test(tj[0])?lia2.innerHTML=tj[1]:lia2.innerHTML=tj[0];
                                 li2.appendChild(lia2);
