@@ -46,7 +46,7 @@ var ol=document.createElement('ol');dft.appendChild(ol);var parts=document.getEl
                                 var ch=new RegExp("[0-9]+");
                                 lia2.href=`#${jump2.id}`;
                                 var tj=h3[k].innerHTML.split('. ')
-                                lia2.innerHTML=ch.test(tj[0])?lia2.innerHTML=tj[1]:lia2.innerHTML=`${uu}. ${h3[k].innerHTML}`;
+                                lia2.innerHTML=ch.test(tj[0])?lia2.innerHTML=tj[1]:lia2.innerHTML=tj[0],h3[k].innerHTML=`${uu}. ${h3[k].innerHTML}`;
                                 li2.appendChild(lia2);
                             }
                         }
