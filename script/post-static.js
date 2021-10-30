@@ -13,7 +13,6 @@ dft.appendChild(toggleshow);
 var ol=document.createElement('ol');dft.appendChild(ol);var parts=document.getElementsByClassName('parts');
     for(var h=0;h<parts.length;h++){
         var h2=parts[h].querySelectorAll('h2');
-        var uu=0;
         if(h2){
             for(var i=0;i<h2.length;i++){
                 if(h2[i].innerText.includes('Sumber informasi')||h2[i].innerText.includes('Daftar pustaka')||h2[i].innerText.includes('Referensi')){break;}
@@ -29,6 +28,7 @@ var ol=document.createElement('ol');dft.appendChild(ol);var parts=document.getEl
                 li.appendChild(lia);
                 var parts2=parts[h].getElementsByClassName('parts');
                 if(parts2){
+                    var uu=0;
                     var ol2=document.createElement('ol');
                     li.appendChild(ol2);
                     for(var j=0;j<parts2.length;j++){
