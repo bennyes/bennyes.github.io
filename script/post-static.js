@@ -39,7 +39,7 @@ var ol=document.createElement('ol');dft.appendChild(ol);var parts=document.getEl
                                 var jump2=document.createElement('span');
                                 jump2.classList.add('jumpto');
                                 jump2.id=h3[k].innerText.replace(/\s/g,'-').toLowerCase();
-                                h3[k].insertAdjacentElement('beforebegin',jump);
+                                h3[k].insertAdjacentElement('beforebegin',jump2);
                                 var lia2=document.createElement('a');
                                 var ch=new RegExp("[0-9]+");
                                 lia2.href=`#${jump2.id}`;
