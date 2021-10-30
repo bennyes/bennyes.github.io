@@ -13,6 +13,7 @@ dft.appendChild(toggleshow);
 var ol=document.createElement('ol');dft.appendChild(ol);var parts=document.getElementsByClassName('parts');
     for(var h=0;h<parts.length;h++){
         var h2=parts[h].querySelectorAll('h2');
+        var uu=0;
         if(h2){
             for(var i=0;i<h2.length;i++){
                 if(h2[i].innerText.includes('Sumber informasi')||h2[i].innerText.includes('Daftar pustaka')||h2[i].innerText.includes('Referensi')){break;}
@@ -34,6 +35,7 @@ var ol=document.createElement('ol');dft.appendChild(ol);var parts=document.getEl
                         var h3=parts2[j].querySelectorAll('h3');
                         if(h3){
                             for (var k=0;k<h3.length;k++){
+                                uu++;
                                 var li2=document.createElement('li');
                                 ol2.appendChild(li2);
                                 var jump2=document.createElement('span');
@@ -44,7 +46,7 @@ var ol=document.createElement('ol');dft.appendChild(ol);var parts=document.getEl
                                 var ch=new RegExp("[0-9]+");
                                 lia2.href=`#${jump2.id}`;
                                 var tj=h3[k].innerHTML.split('. ')
-                                lia2.innerHTML=ch.test(tj[0])?lia2.innerHTML=tj[1]:lia2.innerHTML=tj[0];
+                                lia2.innerHTML=ch.test(tj[0])?lia2.innerHTML=tj[1]:lia2.innerHTML=`${uu}. ${tj[0]}`;
                                 li2.appendChild(lia2);
                             }
                         }
