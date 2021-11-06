@@ -13,8 +13,10 @@ dft.appendChild(toggleshow);
 var ol=document.createElement('ol');dft.appendChild(ol);var parts=document.getElementsByClassName('parts');
     for(var h=0;h<parts.length;h++){
         var h2=parts[h].querySelectorAll('h2');
+        var ut=0;
         if(h2){
             for(var i=0;i<h2.length;i++){
+                ut++;
                 if(h2[i].innerText.includes('Sumber informasi')||h2[i].innerText.includes('Daftar pustaka')||h2[i].innerText.includes('Referensi')){break;}
                 var li=document.createElement('li');
                 ol.appendChild(li);
@@ -24,7 +26,7 @@ var ol=document.createElement('ol');dft.appendChild(ol);var parts=document.getEl
                 h2[i].insertAdjacentElement('beforebegin',jump);
                 var lia=document.createElement('a');
                 lia.href=`#${jump.id}`;
-                lia.innerHTML=h2[i].innerHTML;
+                lia.innerHTML=`${ut}. ${h2[i].innerHTML}`;
                 li.appendChild(lia);
                 var parts2=parts[h].getElementsByClassName('parts');
                 if(parts2){
@@ -46,7 +48,7 @@ var ol=document.createElement('ol');dft.appendChild(ol);var parts=document.getEl
                                 var ch=new RegExp("[0-9]+");
                                 lia2.href=`#${jump2.id}`;
                                 var tj=h3[k].innerHTML.split('. ')
-                                lia2.innerHTML=ch.test(tj[0])?lia2.innerHTML=tj[1]:lia2.innerHTML=tj[0],h3[k].innerHTML=`${uu}. ${h3[k].innerHTML}`;
+                                lia2.innerHTML=ch.test(tj[0])?lia2.innerHTML=tj[1]:lia2.innerHTML=tj[0],h3[k].innerHTML=`${ut}.${uu}. ${h3[k].innerHTML}`;
                                 li2.appendChild(lia2);
                                 var parts3=parts2[j].getElementsByClassName('parts');
                                 if(parts3){
@@ -68,7 +70,7 @@ var ol=document.createElement('ol');dft.appendChild(ol);var parts=document.getEl
                                                 var ci=new RegExp("[0-9]+");
                                                 lia3.href=`#${jump3.id}`;
                                                 var tj=h4[m].innerHTML.split('. ')
-                                                lia3.innerHTML=ci.test(tj[0])?lia3.innerHTML=tj[1]:lia3.innerHTML=tj[0],h4[m].innerHTML=`${uv}. ${h4[m].innerHTML}`;
+                                                lia3.innerHTML=ci.test(tj[0])?lia3.innerHTML=tj[1]:lia3.innerHTML=tj[0],h4[m].innerHTML=`${ut}.${uu}.${uv}. ${h4[m].innerHTML}`;
                                                 li3.appendChild(lia3);
                                             }
                                         }
