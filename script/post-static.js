@@ -65,7 +65,7 @@ var ol=document.createElement('ol');dft.appendChild(ol);var parts=document.getEl
                                                 var jump3=document.createElement('span');
                                                 jump3.classList.add('jumpto');
                                                 jump3.id=h4[m].innerText.replace(/\s/g,'-').toLowerCase();
-                                                h3[m].insertAdjacentElement('beforebegin',jump3);
+                                                h4[m].insertAdjacentElement('beforebegin',jump3);
                                                 var lia3=document.createElement('a');
                                                 var ci=new RegExp("[0-9]+");
                                                 lia3.href=`#${jump3.id}`;
