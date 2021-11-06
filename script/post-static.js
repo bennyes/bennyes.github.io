@@ -48,6 +48,32 @@ var ol=document.createElement('ol');dft.appendChild(ol);var parts=document.getEl
                                 var tj=h3[k].innerHTML.split('. ')
                                 lia2.innerHTML=ch.test(tj[0])?lia2.innerHTML=tj[1]:lia2.innerHTML=tj[0],h3[k].innerHTML=`${uu}. ${h3[k].innerHTML}`;
                                 li2.appendChild(lia2);
+                                var parts3=parts2[j].getElementsByClassName('parts');
+                                if(parts3){
+                                    var uv=0;
+                                    var ol3=document.createElement('ol');
+                                    li.appendChild(ol3);
+                                    for(var l=0;l<parts3.length;l++){
+                                        var h4=parts3[l].querySelectorAll('h4');
+                                        if(h4){
+                                            for (var m=0;m<h4.length;m++){
+                                                uv++;
+                                                var li3=document.createElement('li');
+                                                ol3.appendChild(li3);
+                                                var jump3=document.createElement('span');
+                                                jump3.classList.add('jumpto');
+                                                jump3.id=h4[m].innerText.replace(/\s/g,'-').toLowerCase();
+                                                h3[m].insertAdjacentElement('beforebegin',jump3);
+                                                var lia3=document.createElement('a');
+                                                var ci=new RegExp("[0-9]+");
+                                                lia3.href=`#${jump3.id}`;
+                                                var tj=h4[m].innerHTML.split('. ')
+                                                lia3.innerHTML=ci.test(tj[0])?lia3.innerHTML=tj[1]:lia3.innerHTML=tj[0],h4[m].innerHTML=`${uv}. ${h4[m].innerHTML}`;
+                                                li3.appendChild(lia3);
+                                            }
+                                        }
+                                    }
+                                }
                             }
                         }
                     }
