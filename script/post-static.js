@@ -52,7 +52,7 @@ var ol=document.createElement('ol');dft.appendChild(ol);var parts=document.getEl
                                 if(parts3){
                                     var uv=0;
                                     var ol3=document.createElement('ol');
-                                    li.appendChild(ol3);
+                                    li2.appendChild(ol3);
                                     for(var l=0;l<parts3.length;l++){
                                         var h4=parts3[l].querySelectorAll('h4');
                                         if(h4){
