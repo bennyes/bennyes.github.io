@@ -10,10 +10,10 @@ var toggleshow=document.createElement('a');
 toggleshow.id='toggledais';
 toggleshow.innerHTML='[Lihat/tutup]';
 dft.appendChild(toggleshow);
+var ut=0;
 var ol=document.createElement('ol');dft.appendChild(ol);var parts=document.getElementsByClassName('parts');
     for(var h=0;h<parts.length;h++){
         var h2=parts[h].querySelectorAll('h2');
-        var ut=0;
         if(h2){
             for(var i=0;i<h2.length;i++){
                 ut++;
