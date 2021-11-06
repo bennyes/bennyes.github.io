@@ -26,7 +26,9 @@ var ol=document.createElement('ol');dft.appendChild(ol);var parts=document.getEl
                 h2[i].insertAdjacentElement('beforebegin',jump);
                 var lia=document.createElement('a');
                 lia.href=`#${jump.id}`;
-                lia.innerHTML=`${ut}. ${h2[i].innerHTML}`;
+                var th=h3[k].innerHTML.split('. ')
+                var ch=new RegExp("[0-9]+");
+                lia.innerHTML=ch.test(th[0])?lia.innerHTML=th[1]:lia.innerHTML=th[0],h2[k].innerHTML=`${ut}. ${h2[i].innerHTML}`;
                 li.appendChild(lia);
                 var parts2=parts[h].getElementsByClassName('parts');
                 if(parts2){
@@ -45,7 +47,6 @@ var ol=document.createElement('ol');dft.appendChild(ol);var parts=document.getEl
                                 jump2.id=h3[k].innerText.replace(/\s/g,'-').toLowerCase();
                                 h3[k].insertAdjacentElement('beforebegin',jump2);
                                 var lia2=document.createElement('a');
-                                var ch=new RegExp("[0-9]+");
                                 lia2.href=`#${jump2.id}`;
                                 var tj=h3[k].innerHTML.split('. ')
                                 lia2.innerHTML=ch.test(tj[0])?lia2.innerHTML=tj[1]:lia2.innerHTML=tj[0],h3[k].innerHTML=`${ut}.${uu}. ${h3[k].innerHTML}`;
@@ -67,10 +68,9 @@ var ol=document.createElement('ol');dft.appendChild(ol);var parts=document.getEl
                                                 jump3.id=h4[m].innerText.replace(/\s/g,'-').toLowerCase();
                                                 h4[m].insertAdjacentElement('beforebegin',jump3);
                                                 var lia3=document.createElement('a');
-                                                var ci=new RegExp("[0-9]+");
                                                 lia3.href=`#${jump3.id}`;
                                                 var tj=h4[m].innerHTML.split('. ')
-                                                lia3.innerHTML=ci.test(tj[0])?lia3.innerHTML=tj[1]:lia3.innerHTML=tj[0],h4[m].innerHTML=`${ut}.${uu}.${uv}. ${h4[m].innerHTML}`;
+                                                lia3.innerHTML=ch.test(tj[0])?lia3.innerHTML=tj[1]:lia3.innerHTML=tj[0],h4[m].innerHTML=`${ut}.${uu}.${uv}. ${h4[m].innerHTML}`;
                                                 li3.appendChild(lia3);
                                             }
                                         }
