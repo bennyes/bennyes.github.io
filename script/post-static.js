@@ -26,7 +26,7 @@ var ol=document.createElement('ol');dft.appendChild(ol);var parts=document.getEl
                 h2[i].insertAdjacentElement('beforebegin',jump);
                 var lia=document.createElement('a');
                 lia.href=`#${jump.id}`;
-                var th=h3[k].innerHTML.split('. ')
+                var th=h2[k].innerHTML.split('. ')
                 var ch=new RegExp("[0-9]+");
                 lia.innerHTML=ch.test(th[0])?lia.innerHTML=th[1]:lia.innerHTML=th[0],h2[k].innerHTML=`${ut}. ${h2[i].innerHTML}`;
                 li.appendChild(lia);
