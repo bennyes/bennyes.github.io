@@ -1,5 +1,5 @@
 const theadr=['Nama','Nama Indonesia','Resource Level','Sumber','Cara mendapatkan','Tempat'];
-function liGen(cdw,i,ul){
+function liGen(cdw,ul){
     for(var j=0;j<cdw.length;j++){
         var li=document.createElement('li');
         ul.appendChild(li);
@@ -39,17 +39,17 @@ function tableprinting(brg){
         var ul=document.createElement('ul');
         // ul.classList.add('noliststyle');
         td.appendChild(ul);
-        liGen(items[i].src,i,ul);
+        liGen(items[i].src,ul);
         td=document.createElement('td');
         tr.appendChild(td);
         ul=document.createElement('ul');
         //ul.classList.add('noliststyle');
         td.appendChild(ul);
-        liGen(items[i].cr,i,ul);
+        liGen(items[i].cr,ul);
         td=document.createElement('td');
         tr.appendChild(td);
         ul=document.createElement('ul');
         td.appendChild(ul);
-        liGen(items[i].reg,i,ul);
+        liGen(items[i].reg,ul);
     }
 }
