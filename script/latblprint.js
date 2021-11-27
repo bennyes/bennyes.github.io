@@ -19,10 +19,10 @@ function tableprinting(brg){
         th.innerHTML=theadr[i];
         tr.appendChild(th);
     }
-    if(brg=='daging'){
-        var bst=0,bfi=3;
+    if(brg==='daging'){
+        var bst=0,bfi=4;
     }
-    for(var i=bst;i<bfi;bst++){
+    for(var i=bst;i<bfi;i++){
         tr=document.createElement('tr');
         meattable.appendChild(tr);
         var td=document.createElement('td');
