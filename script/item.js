@@ -280,7 +280,7 @@ const rsr=[
         src:['rebung'],//xx
         cr:['mengumpulkan'],//xx
         reg:['semua tempat'],
-        ssn:'spring'
+        ssn:['spring']
     },
     {
         id:95,
@@ -290,7 +290,7 @@ const rsr=[
         src:['tumbuhan timun'],//xx
         cr:['mengumpulkan'],//xx
         reg:['Assyrian Hills','Blade Hunter Base'],
-        ssn:'summer'
+        ssn:['summer']
     },
     {
         id:96,
@@ -300,7 +300,7 @@ const rsr=[
         src:['tumbuhan lobak'],//xx
         cr:['mengumpulkan'],//xx
         reg:['semua tempat'],
-        ssn:'winter'
+        ssn:['winter']
     },
     {
         id:97,
@@ -328,7 +328,7 @@ const rsr=[
         src:['jamur warna ungu muda'],//xx
         cr:['mengumpulkan'],//xx
         reg:['Mount Snow'],
-        ket:'dekat dan dalam cave (goa)'
+        ket:['dekat dan dalam cave (goa)']
     },
     {
         id:100,
