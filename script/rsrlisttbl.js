@@ -61,6 +61,7 @@ function tableprinting(brg){
                 if(rsr[i].ssn){liGen(rsr[i].ssn,ul);}
                 if(rsr[i].wh){liGen(rsr[i].wh,ul);}
             }
+            else{td.innerHTML='-';}
         }
     }
 }
