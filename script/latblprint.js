@@ -3,8 +3,7 @@ function liGen(cdw,i,ul){
     for(var j=0;j<cdw.length;j++){
         var li=document.createElement('li');
         ul.appendChild(li);
-        var ais=items[i].cr[j];
-        ais = ais.replace(/\s+/g, '-').toLowerCase();
+        var ais=cdw.replace(/\s+/g, '-').toLowerCase();
         var a=document.createElement('a');
         a.href=`/${ais}`;
         a.innerHTML=cdw[j].charAt(0).toUpperCase() + cdw[j].slice(1);;
