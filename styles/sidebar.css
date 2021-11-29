@@ -19,7 +19,7 @@
     font-size: 10pt;
     font-weight: bold;
 }
-#Label1 li a:hover {
+#Label1 li:hover {
     background:var(--color2);color:var(--color1);
 }
 
