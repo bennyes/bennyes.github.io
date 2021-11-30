@@ -7,7 +7,10 @@ const rsr=[
         r_lvl:0,
         src:['wolf','deer','fawn','bear','boar','infected','pig'],
         cr:['berburu','menyembelih ternak'],
-        reg:['Clear Sky Wheat Field','Fall Forest','Summer Rain Highway','Assyrian Hills','Camp']
+        reg:['Clear Sky Wheat Field','Fall Forest','Summer Rain Highway','Assyrian Hills','Camp'],
+        ket:[''],
+        ssn:[''],
+        wh:[''],
     },
     {
         id:2,
@@ -16,7 +19,10 @@ const rsr=[
         r_lvl:0,
         src:['wolf','deer','fawn','bear','boar','cow'],
         cr:['berburu','menyembelih ternak'],
-        reg:['Clear Sky Wheat Field','Fall Forest','Assyrian Hills','Camp','Levin City']
+        reg:['Clear Sky Wheat Field','Fall Forest','Assyrian Hills','Camp','Levin City'],
+        ket:[''],
+        ssn:[''],
+        wh:[''],
     },
     {
         id:3,
@@ -25,7 +31,10 @@ const rsr=[
         r_lvl:0,
         src:['wolf','deer','fawn','bear','boar','sheep'],
         cr:['berburu','menyembelih ternak'],
-        reg:['Assyrian Hills','Camp','Levin City']
+        reg:['Assyrian Hills','Camp','Levin City'],
+        ket:[''],
+        ssn:[''],
+        wh:[''],
     },
     {
         id:4,
@@ -34,7 +43,10 @@ const rsr=[
         r_lvl:0,
         src:['cow'],//xx
         cr:['berburu'],//xx
-        reg:['Camp']//xx
+        reg:['Camp'],//xx
+        ket:[''],
+        ssn:[''],
+        wh:[''],
     },
     //IKAN
     {
@@ -44,7 +56,10 @@ const rsr=[
         r_lvl:1,
         src:['pemancingan lv.1'],//xx
         cr:['memancing'],//xx
-        reg:['semua perairan']//xx
+        reg:['semua perairan'],//xx
+        ket:[''],
+        ssn:[''],
+        wh:[''],
     },
     {
         id:102,
@@ -53,7 +68,10 @@ const rsr=[
         r_lvl:1,
         src:['pemancingan lv.1'],//xx
         cr:['memancing'],//xx
-        reg:['semua perairan']//xx
+        reg:['semua perairan'],//xx
+        ket:[''],
+        ssn:[''],
+        wh:[''],
     },
     {
         id:103,
@@ -62,7 +80,10 @@ const rsr=[
         r_lvl:1,
         src:['pemancingan lv.1'],//xx
         cr:['memancing'],//xx
-        reg:['semua perairan']//xx
+        reg:['semua perairan'],//xx
+        ket:[''],
+        ssn:[''],
+        wh:[''],
     },
     {
         id:104,
@@ -71,7 +92,10 @@ const rsr=[
         r_lvl:1,
         src:['pemancingan lv.1'],//xx
         cr:['memancing'],//xx
-        reg:['semua perairan']//xx
+        reg:['semua perairan'],//xx
+        ket:[''],
+        ssn:[''],
+        wh:[''],
     },
     {
         id:105,
@@ -80,7 +104,10 @@ const rsr=[
         r_lvl:1,
         src:['pemancingan lv.1'],//xx
         cr:['memancing'],//xx
-        reg:['semua perairan']//xx
+        reg:['semua perairan'],//xx
+        ket:[''],
+        ssn:[''],
+        wh:[''],
     },
     {
         id:106,
@@ -89,7 +116,10 @@ const rsr=[
         r_lvl:1,
         src:['pemancingan lv.1'],//xx
         cr:['memancing'],//xx
-        reg:['semua perairan']//xx
+        reg:['semua perairan'],//xx
+        ket:[''],
+        ssn:[''],
+        wh:[''],
     },
     {
         id:107,
@@ -98,7 +128,10 @@ const rsr=[
         r_lvl:2,
         src:['pemancingan lv.2'],//xx
         cr:['memancing'],//xx
-        reg:['']//xx
+        reg:[''],//xx
+        ket:[''],
+        ssn:[''],
+        wh:[''],
     },
     //HEWANI NON DAGING/IKAN
     {
@@ -108,7 +141,10 @@ const rsr=[
         r_lvl:0,
         src:['cow'],
         cr:['memerah susu dari sapi di manor'],
-        reg:['Camp']
+        reg:['Camp'],//xx
+        ket:[''],
+        ssn:[''],
+        wh:[''],
     },
     {
         id:202,
@@ -117,7 +153,10 @@ const rsr=[
         r_lvl:0,
         src:['duck','chicken','goose'],
         cr:['beternak unggas'],
-        reg:['Camp']
+        reg:['Camp'],//xx
+        ket:[''],
+        ssn:[''],
+        wh:[''],
     },
     {
         id:203,
@@ -126,7 +165,10 @@ const rsr=[
         r_lvl:0,
         src:['sarang lebah (hive)'],
         cr:['menebang pohon'],
-        reg:['Fall Forest','Mount Snow']
+        reg:['Fall Forest','Mount Snow'],//xx
+        ket:[''],
+        ssn:[''],
+        wh:[''],
     },
 
     //HEWANI NON PANGAN
@@ -137,7 +179,10 @@ const rsr=[
         r_lvl:1,
         src:['wolf','deer','fawn','bear','infected'],//xx
         cr:['berburu'],//xx
-        reg:['Clear Sky Wheat Field','Fall Forest','Summer Rain Highway','Camp']//xx
+        reg:['Clear Sky Wheat Field','Fall Forest','Summer Rain Highway','Camp'],//xx
+        ket:[''],
+        ssn:[''],
+        wh:[''],
     },
     {
         id:302,
@@ -146,7 +191,10 @@ const rsr=[
         r_lvl:1,
         src:['wolf','deer','fawn','bear','infected'],//xx
         cr:['berburu'],//xx
-        reg:['Clear Sky Wheat Field','Fall Forest','Summer Rain Highway','Camp']//xx
+        reg:['Clear Sky Wheat Field','Fall Forest','Summer Rain Highway','Camp'],//xx
+        ket:[''],
+        ssn:[''],
+        wh:[''],
     },
     {
         id:303,
@@ -155,7 +203,10 @@ const rsr=[
         r_lvl:2,
         src:['wolf','bear','boar','infected'],//xx
         cr:['berburu'],//xx
-        reg:['Assyrian Hills','Blade Hunter Base']//xx
+        reg:['Assyrian Hills','Blade Hunter Base'],//xx
+        ket:[''],
+        ssn:[''],
+        wh:[''],
     },
     {
         id:304,
@@ -164,7 +215,10 @@ const rsr=[
         r_lvl:2,
         src:['wolf','bear','boar','infected'],//xx
         cr:['berburu'],//xx
-        reg:['Assyrian Hills','Blade Hunter Base']
+        reg:['Assyrian Hills','Blade Hunter Base'],//xx
+        ket:[''],
+        ssn:[''],
+        wh:[''],
     },
     {
         id:305,
@@ -173,7 +227,10 @@ const rsr=[
         r_lvl:3,
         src:['deer','fawn','bear','wolf','infected'],//xx
         cr:['berburu'],//xx
-        reg:['Galaxy Valley','Mount Snow','Snow Highlands','Utz Mine','Polar Tjaele']//xx
+        reg:['Galaxy Valley','Mount Snow','Snow Highlands','Utz Mine','Polar Tjaele'],//xx
+        ket:[''],
+        ssn:[''],
+        wh:[''],
     },
     {
         id:306,
@@ -182,7 +239,10 @@ const rsr=[
         r_lvl:3,
         src:['deer','fawn','bear','wolf','infected'],//xx
         cr:['berburu'],//xx
-        reg:['Galaxy Valley','Mount Snow','Snow Highlands','Utz Mine','Polar Tjaele']
+        reg:['Galaxy Valley','Mount Snow','Snow Highlands','Utz Mine','Polar Tjaele'],//xx
+        ket:[''],
+        ssn:[''],
+        wh:[''],
     },
     {
         id:307,
@@ -191,7 +251,10 @@ const rsr=[
         r_lvl:3,
         src:['deer','fawn','bear','wolf','infected'],//xx
         cr:['berburu'],//xx
-        reg:['Galaxy Valley','Mount Snow','Snow Highlands','Utz Mine','Polar Tjaele']
+        reg:['Galaxy Valley','Mount Snow','Snow Highlands','Utz Mine','Polar Tjaele'],//xx
+        ket:[''],
+        ssn:[''],
+        wh:[''],
     },
     {
         id:308,
@@ -200,7 +263,10 @@ const rsr=[
         r_lvl:4,
         src:['deer','fawn','bear','wolf','infected'],//xx
         cr:['berburu'],//xx
-        reg:['River Area','Levin City','Levin City Dawn District','Miska Town','Wolf Hunting Field','Black Pearl Area'],
+        reg:['River Area','Levin City','Levin City Dawn District','Miska Town','Wolf Hunting Field','Black Pearl Area'],//xx
+        ket:[''],
+        ssn:[''],
+        wh:[''],
     },
     {
         id:309,
@@ -209,7 +275,10 @@ const rsr=[
         r_lvl:4,
         src:['deer','fawn','bear','wolf','infected'],//xx
         cr:['berburu'],//xx
-        reg:['River Area','Levin City','Levin City Dawn District','Miska Town','Wolf Hunting Field','Black Pearl Area'],
+        reg:['River Area','Levin City','Levin City Dawn District','Miska Town','Wolf Hunting Field','Black Pearl Area'],//xx
+        ket:[''],
+        ssn:[''],
+        wh:[''],
     },
     {
         id:310,
@@ -218,7 +287,10 @@ const rsr=[
         r_lvl:5,
         src:['deer','fawn','bear','wolf','infected'],//xx
         cr:['berburu'],//xx
-        reg:['']//xx
+        reg:[''],//xx
+        ket:[''],
+        ssn:[''],
+        wh:[''],
     },
     {
         id:311,
@@ -227,7 +299,10 @@ const rsr=[
         r_lvl:5,
         src:['deer','fawn','bear','wolf','infected'],//xx
         cr:['berburu'],//xx
-        reg:['']//xx
+        reg:[''],//xx
+        ket:[''],
+        ssn:[''],
+        wh:[''],
     },
     {
         id:312,
@@ -236,7 +311,10 @@ const rsr=[
         r_lvl:6,
         src:['deer','fawn','bear','wolf','infected'],//xx
         cr:['berburu'],//xx
-        reg:['']//xx
+        reg:[''],//xx
+        ket:[''],
+        ssn:[''],
+        wh:[''],
     },
     {
         id:313,
@@ -245,7 +323,10 @@ const rsr=[
         r_lvl:6,
         src:['deer','fawn','bear','wolf','infected'],//xx
         cr:['berburu'],//xx
-        reg:['']//xx
+        reg:[''],//xx
+        ket:[''],
+        ssn:[''],
+        wh:[''],
     },
 
     //BUAH-BUAHAN 61-76
@@ -256,7 +337,10 @@ const rsr=[
         r_lvl:0,
         src:['tumbuhan berry','chest'],//xx
         cr:['mengumpulkan','buka chest','berkebun'],//xx
-        reg:['semua tempat']
+        reg:['semua tempat'],//xx
+        ket:[''],
+        ssn:[''],
+        wh:[''],
     },
     {
         id:402,
@@ -265,7 +349,10 @@ const rsr=[
         r_lvl:0,
         src:['tumbuhan berry','chest'],//xx
         cr:['mengumpulkan','buka chest'],//xx
-        reg:['semua tempat']
+        reg:['semua tempat'],//xx
+        ket:[''],
+        ssn:[''],
+        wh:[''],
     },
     {
         id:403,
@@ -274,7 +361,10 @@ const rsr=[
         r_lvl:0,
         src:['pohon kelapa'],//xx
         cr:['tebang pohon kelapa'],//xx
-        reg:['Santopany','Storm Shelter Land (camp)']
+        reg:['Santopany','Storm Shelter Land (camp)'],//xx
+        ket:[''],
+        ssn:[''],
+        wh:[''],
     },
 
      //semangka:charles central refuge
@@ -287,7 +377,10 @@ const rsr=[
         r_lvl:0,
         src:['tumbuhan rapeseed'],//xx
         cr:['mengumpulkan'],//xx
-        reg:['Clear Sky Wheat Field','Fall Forest','Summer Rain Highway','Assyrian Hills']
+        reg:['Clear Sky Wheat Field','Fall Forest','Summer Rain Highway','Assyrian Hills'],//xx
+        ket:[''],
+        ssn:[''],
+        wh:[''],
     },
     {
         id:502,
@@ -296,7 +389,10 @@ const rsr=[
         r_lvl:0,
         src:['tumbuhan berry','chest'],//xx
         cr:['mengumpulkan','buka chest'],//xx
-        reg:['semua tempat']
+        reg:['semua tempat'],//xx
+        ket:[''],
+        ssn:[''],
+        wh:[''],
     },
     {
         id:503,
@@ -305,7 +401,9 @@ const rsr=[
         r_lvl:0,
         src:['jamur warna pink'],//xx
         cr:['mengumpulkan'],//xx
-        reg:['Fall Forest'],
+        reg:['Fall Forest'],//xx
+        ket:[''],
+        ssn:[''],
         wh:['rain']
     },
     {
@@ -315,7 +413,9 @@ const rsr=[
         r_lvl:0,
         src:['rebung'],//xx
         cr:['mengumpulkan'],//xx
-        reg:['semua tempat'],
+        reg:['semua tempat'],//xx
+        ket:[''],
+        wh:[''],
         ssn:['spring']
     },
     {
@@ -326,7 +426,10 @@ const rsr=[
         src:['tumbuhan timun'],//xx
         cr:['mengumpulkan'],//xx
         reg:['Assyrian Hills','Blade Hunter Base'],
-        ssn:['summer']
+        ssn:['summer'],
+        ket:[''],
+        wh:[''],
+        
     },
     {
         id:506,
@@ -336,7 +439,9 @@ const rsr=[
         src:['tumbuhan lobak'],//xx
         cr:['mengumpulkan'],//xx
         reg:['semua tempat'],
-        ssn:['winter']
+        ssn:['winter'],
+        ket:[''],
+        wh:[''],
     },
     {
         id:507,
@@ -345,7 +450,10 @@ const rsr=[
         r_lvl:0,
         src:['tumbuhan labu'],//xx
         cr:['mengumpulkan'],//xx
-        reg:['Mount Snow','Farstar City']
+        reg:['Mount Snow','Farstar City'],//xx
+        ket:[''],
+        ssn:[''],
+        wh:[''],
     },
     {
         id:508,
@@ -355,7 +463,10 @@ const rsr=[
         r_lvl:0,
         src:['jamur matsutake'],//xx
         cr:['mengumpulkan'],//xx
-        reg:['Mount Snow','Snow Highlands','Snowfield Shelter Land (camp)']
+        reg:['Mount Snow','Snow Highlands','Snowfield Shelter Land (camp)'],//xx
+        ket:[''],
+        ssn:[''],
+        wh:[''],
     },
     {
         id:509,
@@ -366,7 +477,9 @@ const rsr=[
         src:['jamur warna ungu muda'],//xx
         cr:['mengumpulkan'],//xx
         reg:['Mount Snow'],
-        ket:['dekat dan dalam cave (goa)']
+        ket:['di mulut dan dalam cave (goa)'],//xx
+        ssn:[''],
+        wh:[''],
     },
     {
         id:510,
@@ -375,7 +488,10 @@ const rsr=[
         r_lvl:0,
         src:['tumbuhan jagung'],//xx
         cr:['mengumpulkan'],//xx
-        reg:['Mount Apparition','Redwood Town','Wilderness Shelter Land (camp)'],
+        reg:['Mount Apparition','Redwood Town','Wilderness Shelter Land (camp)'],//xx
+        ket:[''],
+        ssn:[''],
+        wh:[''],
     },
     {
         id:511,
@@ -384,7 +500,10 @@ const rsr=[
         r_lvl:0,
         src:['tumbuhan cayenne pepper'],//xx
         cr:['mengumpulkan'],//xx
-        reg:['Lawrence Bay','Santopany','Mouth Town','Blaze Shelter Land (camp)'],
+        reg:['Lawrence Bay','Santopany','Mouth Town','Blaze Shelter Land (camp)'],//xx
+        ket:[''],
+        ssn:[''],
+        wh:[''],
     },
     {
         id:512,
@@ -393,7 +512,10 @@ const rsr=[
         r_lvl:0,
         src:['tumbuhan wortel'],//xx
         cr:['mengumpulkan'],//xx
-        reg:[''],
+        reg:[''],//xx
+        ket:[''],
+        ssn:[''],
+        wh:[''],
     },
 
     //NABATI NON PANGAN
@@ -404,7 +526,10 @@ const rsr=[
         r_lvl:0,
         src:['pohon apa saja','chest'],//xx
         cr:['tebang pohon','buka peti','berkebun'],//xx
-        reg:['semua tempat']//xx
+        reg:['semua tempat'],//xx
+        ket:[''],
+        ssn:[''],
+        wh:[''],
     },
     {
         id:602,
@@ -413,7 +538,10 @@ const rsr=[
         r_lvl:1,
         src:['hasil samping pohon','chest'],//xx
         cr:['tebang pohon','buka peti','berkebun'],//xx
-        reg:['Clear Sky Wheat Field','Fall Forest','Summer Rain Highway']//xx
+        reg:['Clear Sky Wheat Field','Fall Forest','Summer Rain Highway'],//xx
+        ket:[''],
+        ssn:[''],
+        wh:[''],
     },
     {
         id:603,
@@ -423,7 +551,9 @@ const rsr=[
         src:['pohon'],//xx
         cr:['tebang pohon'],//xx
         reg:['Clear Sky Wheat Field','Fall Forest','Summer Rain Highway'],//xx
-        wh:['rain']
+        wh:['rain'],//xx
+        ket:[''],
+        ssn:[''],
     },
     {
         id:604,
@@ -432,7 +562,10 @@ const rsr=[
         r_lvl:0,
         src:['tumbuhan hemp'],//xx
         cr:['mengumpulkan'],//xx
-        reg:['semua tempat']//xx
+        reg:['semua tempat'],//xx
+        ket:[''],
+        ssn:[''],
+        wh:[''],
     },
     {
         id:605,
@@ -441,7 +574,10 @@ const rsr=[
         r_lvl:1,
         src:['tumbuhan hemp'],//xx
         cr:['mengumpulkan'],//xx
-        reg:['Clear Sky Wheat Field','Fall Forest','Summer Rain Highway']//xx
+        reg:['Clear Sky Wheat Field','Fall Forest','Summer Rain Highway'],//xx
+        ket:[''],
+        ssn:[''],
+        wh:[''],
     },
     {
         id:606,
@@ -450,7 +586,10 @@ const rsr=[
         r_lvl:2,
         src:['pohon'],//xx
         cr:['tebang pohon'],//xx
-        reg:['Assyrian Hills','Blade Hunter Base']//xx
+        reg:['Assyrian Hills','Blade Hunter Base'],//xx
+        ket:[''],
+        ssn:[''],
+        wh:[''],
     },
     {
         id:607,
@@ -459,7 +598,10 @@ const rsr=[
         r_lvl:2,
         src:['tumbuhan hemp'],//xx
         cr:['mengumpulkan'],//xx
-        reg:['Assyrian Hills','Blade Hunter Base']//xx
+        reg:['Assyrian Hills','Blade Hunter Base'],//xx
+        ket:[''],
+        ssn:[''],
+        wh:[''],
     },
     {
         id:608,
@@ -468,7 +610,10 @@ const rsr=[
         r_lvl:2,
         src:['tumbuhan hemp'],//xx
         cr:['mengumpulkan'],//xx
-        reg:['Assyrian Hills','Blade Hunter Base']//xx
+        reg:['Assyrian Hills','Blade Hunter Base'],//xx
+        ket:[''],
+        ssn:[''],
+        wh:[''],
     },
     {
         id:609,
@@ -477,7 +622,10 @@ const rsr=[
         r_lvl:3,
         src:['pohon'],//xx
         cr:['tebang pohon'],//xx
-        reg:['Galaxy Valley','Mount Snow','Snow Highlands','Utz Mine','Polar Tjaele']
+        reg:['Galaxy Valley','Mount Snow','Snow Highlands','Utz Mine','Polar Tjaele'],//xx
+        ket:[''],
+        ssn:[''],
+        wh:[''],
     },
     {
         id:610,
@@ -486,7 +634,10 @@ const rsr=[
         r_lvl:3,
         src:['pohon'],//xx
         cr:['tebang pohon'],//xx
-        reg:['Galaxy Valley','Mount Snow','Snow Highlands','Utz Mine','Polar Tjaele']
+        reg:['Galaxy Valley','Mount Snow','Snow Highlands','Utz Mine','Polar Tjaele'],//xx
+        ket:[''],
+        ssn:[''],
+        wh:[''],
     },
     {
         id:611,
@@ -495,7 +646,10 @@ const rsr=[
         r_lvl:3,
         src:['pohon'],//xx
         cr:['tebang pohon'],//xx
-        reg:['Galaxy Valley','Mount Snow','Snow Highlands','Utz Mine','Polar Tjaele']
+        reg:['Galaxy Valley','Mount Snow','Snow Highlands','Utz Mine','Polar Tjaele'],//xx
+        ket:[''],
+        ssn:[''],
+        wh:[''],
     },
     {
         id:612,
@@ -504,7 +658,10 @@ const rsr=[
         r_lvl:3,
         src:['tumbuhan hemp'],//xx
         cr:['mengumpulkan hemp'],//xx
-        reg:['Galaxy Valley','Mount Snow','Snow Highlands','Utz Mine','Polar Tjaele']
+        reg:['Galaxy Valley','Mount Snow','Snow Highlands','Utz Mine','Polar Tjaele'],//xx
+        ket:[''],
+        ssn:[''],
+        wh:[''],
     },
     {
         id:613,
@@ -513,7 +670,10 @@ const rsr=[
         r_lvl:3,
         src:['tumbuhan hemp'],//xx
         cr:['mengumpulkan hemp'],//xx
-        reg:['Galaxy Valley','Mount Snow','Snow Highlands','Utz Mine','Polar Tjaele']
+        reg:['Galaxy Valley','Mount Snow','Snow Highlands','Utz Mine','Polar Tjaele'],//xx
+        ket:[''],
+        ssn:[''],
+        wh:[''],
     },
     {
         id:614,
@@ -522,7 +682,10 @@ const rsr=[
         r_lvl:3,
         src:['tumbuhan hemp'],//xx
         cr:['mengumpulkan hemp'],//xx
-        reg:['Galaxy Valley','Mount Snow','Snow Highlands','Utz Mine','Polar Tjaele']
+        reg:['Galaxy Valley','Mount Snow','Snow Highlands','Utz Mine','Polar Tjaele'],//xx
+        ket:[''],
+        ssn:[''],
+        wh:[''],
     },
     {
         id:615,
@@ -531,7 +694,10 @@ const rsr=[
         r_lvl:4,
         src:['pohon','chest','Tentara Scientia'],//xx
         cr:['tebang pohon'],//xx
-        reg:['Mount Snow','River Area','Levin City','Levin City Dawn District','Miska Town','Wolf Hunting Field','Black Pearl Area']
+        reg:['Mount Snow','River Area','Levin City','Levin City Dawn District','Miska Town','Wolf Hunting Field','Black Pearl Area'],//xx
+        ket:[''],
+        ssn:[''],
+        wh:[''],
     },
     {
         id:616,
@@ -541,7 +707,9 @@ const rsr=[
         src:['pohon','chest'],//xx
         cr:['tebang pohon'],//xx
         reg:['River Area','Levin City','Levin City Dawn District','Miska Town','Wolf Hunting Field','Black Pearl Area'],
-        ket:'butuh cert "Logger 2"'
+        ket:['butuh cert "Logger 2"'],//xx
+        ssn:[''],
+        wh:[''],
     },
     {
         id:617,
@@ -550,7 +718,10 @@ const rsr=[
         r_lvl:4,
         src:['tumbuhan hemp'],//xx
         cr:['mengumpulkan hemp'],//xx
-        reg:['River Area','Levin City','Levin City Dawn District','Miska Town','Wolf Hunting Field','Black Pearl Area'],
+        reg:['River Area','Levin City','Levin City Dawn District','Miska Town','Wolf Hunting Field','Black Pearl Area'],//xx
+        ket:[''],
+        ssn:[''],
+        wh:[''],
     },
     {
         id:618,
@@ -559,7 +730,10 @@ const rsr=[
         r_lvl:5,
         src:['pohon'],//xx
         cr:['tebang pohon'],//xx
-        reg:['Santopany','Redwood Town','Lesins Port','Miska Town','Mount Apparition'],
+        reg:['Santopany','Redwood Town','Lesins Port','Miska Town','Mount Apparition'],//xx
+        ket:[''],
+        ssn:[''],
+        wh:[''],
     },
     //BIBIT/BENIH
     {
@@ -569,7 +743,10 @@ const rsr=[
         r_lvl:1,
         src:['tumbuhan beri'],//xx
         cr:['mengumpulkan beri'],//xx
-        reg:['semua tempat']
+        reg:['semua tempat'],//xx
+        ket:[''],
+        ssn:[''],
+        wh:[''],
     },
     {
         id:702,
@@ -578,7 +755,10 @@ const rsr=[
         r_lvl:1,
         src:['pohon'],//xx
         cr:['tebang pohon'],//xx
-        reg:['Clear Sky Wheat Field','Fall Forest','Summer Rain Highway']
+        reg:['Clear Sky Wheat Field','Fall Forest','Summer Rain Highway'],//xx
+        ket:[''],
+        ssn:[''],
+        wh:[''],
     },
     {
         id:703,
@@ -587,7 +767,10 @@ const rsr=[
         r_lvl:2,
         src:['pohon'],//xx
         cr:['tebang pohon lv. 1'],//xx
-        reg:['Assyrian Hills','Blade Hunter Base']
+        reg:['Assyrian Hills','Blade Hunter Base'],
+        ket:[''],
+        ssn:[''],
+        wh:[''],
     },
     {
         id:704,
@@ -596,7 +779,10 @@ const rsr=[
         r_lvl:2,
         src:['hemp'],//xx
         cr:['mengumpulkan hemp lv. 2'],//xx
-        reg:['Assyrian Hills','Blade Hunter Base']
+        reg:['Assyrian Hills','Blade Hunter Base'],
+        ket:[''],
+        ssn:[''],
+        wh:[''],
     },
     {
         id:705,
@@ -605,7 +791,10 @@ const rsr=[
         r_lvl:3,
         src:['pohon'],//xx
         cr:['tebang pohon lv. 3'],//xx
-        reg:['Galaxy Valley','Mount Snow','Snow Highlands','Utz Mine','Polar Tjaele']
+        reg:['Galaxy Valley','Mount Snow','Snow Highlands','Utz Mine','Polar Tjaele'],
+        ket:[''],
+        ssn:[''],
+        wh:[''],
     },
 
     
@@ -617,7 +806,10 @@ const rsr=[
         r_lvl:2,
         src:['pohon oak'],//xx
         cr:['menanam oak seedling dan menebangnya di halaman manor'],//xx
-        reg:['camp']
+        reg:['camp'],
+        ket:[''],
+        ssn:[''],
+        wh:[''],
     },
     {
         id:802,
@@ -626,7 +818,10 @@ const rsr=[
         r_lvl:3,
         src:['pohon ginkgo'],//xx
         cr:['menanam ginkgo seedling dan menebangnya di halaman manor'],//xx
-        reg:['camp']
+        reg:['camp'],
+        ket:[''],
+        ssn:[''],
+        wh:[''],
     },
     //BAHAN PANGAN
     {
@@ -636,7 +831,10 @@ const rsr=[
         r_lvl:0,
         src:['Lafita','Pedagang di Hope 101'],//xx
         cr:['beli'],//xx
-        reg:['camp','Hope 101']
+        reg:['camp','Hope 101'],
+        ket:[''],
+        ssn:[''],
+        wh:[''],
     },
     {
         id:902,
@@ -645,7 +843,10 @@ const rsr=[
         r_lvl:0,
         src:['Lafita','Pedagang di Hope 101'],//xx
         cr:['beli'],//xx
-        reg:['camp','Hope 101']
+        reg:['camp','Hope 101'],
+        ket:[''],
+        ssn:[''],
+        wh:[''],
     },
     {
         id:903,
@@ -654,7 +855,10 @@ const rsr=[
         r_lvl:0,
         src:['Lafita','Pedagang di Hope 101'],//xx
         cr:['beli'],//xx
-        reg:['camp','Hope 101']
+        reg:['camp','Hope 101'],
+        ket:[''],
+        ssn:[''],
+        wh:[''],
     },
     {
         id:904,
@@ -663,7 +867,10 @@ const rsr=[
         r_lvl:0,
         src:['Lafita','Pedagang di Hope 101'],//xx
         cr:['beli'],//xx
-        reg:['camp','Hope 101']
+        reg:['camp','Hope 101'],
+        ket:[''],
+        ssn:[''],
+        wh:[''],
     },
     {
         id:905,
@@ -672,7 +879,10 @@ const rsr=[
         r_lvl:0,
         src:['Lafita','Pedagang di Hope 101'],//xx
         cr:['beli'],//xx
-        reg:['camp','Hope 101']
+        reg:['camp','Hope 101'],
+        ket:[''],
+        ssn:[''],
+        wh:[''],
     },
     {
         id:906,
@@ -681,7 +891,10 @@ const rsr=[
         r_lvl:0,
         src:['Lafita','Pedagang di Hope 101'],//xx
         cr:['beli'],//xx
-        reg:['camp','Hope 101']
+        reg:['camp','Hope 101'],
+        ket:[''],
+        ssn:[''],
+        wh:[''],
     },
     {
         id:907,
@@ -690,7 +903,10 @@ const rsr=[
         r_lvl:0,
         src:['Lafita','Pedagang di Hope 101'],//xx
         cr:['beli'],//xx
-        reg:['camp','Hope 101']
+        reg:['camp','Hope 101'],
+        ket:[''],
+        ssn:[''],
+        wh:[''],
     },
     {
         id:908,
@@ -699,7 +915,10 @@ const rsr=[
         r_lvl:0,
         src:['Lafita','bebatuan di area dingin/beku'],//xx
         cr:['beli','menambang bebatuan di area dingin/beku'],//xx
-        reg:['camp','Hope 101','Mount Snow','Utz Mine','Snow Highlands','Polar Tjaele']
+        reg:['camp','Hope 101','Mount Snow','Utz Mine','Snow Highlands','Polar Tjaele'],
+        ket:[''],
+        ssn:[''],
+        wh:[''],
     },
     //PERLENGKAPAN BERKEBUN
     {
@@ -709,7 +928,10 @@ const rsr=[
         r_lvl:0,
         src:['toilet'],//xx
         cr:['BAB di toilet manor'],//xx
-        reg:['camp']
+        reg:['camp'],
+        ket:[''],
+        ssn:[''],
+        wh:[''],
     },
     {
         id:1002,
@@ -718,7 +940,10 @@ const rsr=[
         r_lvl:0,
         src:['chest'],//xx
         cr:['buka chest'],//xx
-        reg:['Clear Sky Wheat Field','Fall Forest','Summer Rain Highway','Assyrian Hills']
+        reg:['Clear Sky Wheat Field','Fall Forest','Summer Rain Highway','Assyrian Hills'],
+        ket:[''],
+        ssn:[''],
+        wh:[''],
     },
     {
         id:1003,
@@ -727,7 +952,10 @@ const rsr=[
         r_lvl:0,
         src:['buat sendiri','beli'],//xx
         cr:['buat sendiri','beli di Hope 101 atau trade city'],//xx
-        reg:['camp','Hope 101']
+        reg:['camp','Hope 101'],
+        ket:[''],
+        ssn:[''],
+        wh:[''],
     },
     //HASIL TAMBANG
     {
@@ -737,7 +965,10 @@ const rsr=[
         r_lvl:0,
         src:['bebatuan','chest'],//xx
         cr:['menambang bebatuan lv. berapapun','buka chest','ekstraksi di tambang halaman manor'],//xx
-        reg:['semua tempat']
+        reg:['semua tempat'],
+        ket:[''],
+        ssn:[''],
+        wh:[''],
     },
     {
         id:1102,
@@ -746,7 +977,10 @@ const rsr=[
         r_lvl:1,
         src:['bebatuan'],//xx
         cr:['menambang bebatuan lv. 1','ekstraksi di tambang halaman manor (cast iron drill bit)'],//xx
-        reg:['Clear Sky Wheat Field','Fall Forest','Summer Rain Highway','camp']
+        reg:['Clear Sky Wheat Field','Fall Forest','Summer Rain Highway','camp'],
+        ket:[''],
+        ssn:[''],
+        wh:[''],
     },
     {
         id:1103,
@@ -756,7 +990,9 @@ const rsr=[
         src:['bebatuan'],//xx
         cr:['menambang bebatuan lv. 1'],//xx
         reg:['Clear Sky Wheat Field','Fall Forest','Summer Rain Highway'],
-        wh:['Tidak hujan']
+        wh:['Tidak hujan'],
+        ket:[''],
+        ssn:[''],
     },
     {
         id:1104,
@@ -765,7 +1001,10 @@ const rsr=[
         r_lvl:2,
         src:['bebatuan'],//xx
         cr:['menambang bebatuan lv. 2'],//xx
-        reg:['Assyrian Hills','Blade Hunter Base']
+        reg:['Assyrian Hills','Blade Hunter Base'],
+        ket:[''],
+        ssn:[''],
+        wh:[''],
     },
     {
         id:1105,
@@ -774,7 +1013,10 @@ const rsr=[
         r_lvl:2,
         src:['bebatuan'],//xx
         cr:['menambang bebatuan lv. 2'],//xx
-        reg:['Assyrian Hills','Blade Hunter Base']
+        reg:['Assyrian Hills','Blade Hunter Base'],
+        ket:[''],
+        ssn:[''],
+        wh:[''],
     },
     {
         id:1106,
@@ -783,7 +1025,10 @@ const rsr=[
         r_lvl:3,
         src:['bebatuan'],//xx
         cr:['menambang bebatuan lv. 3'],//xx
-        reg:['Galaxy Valley','Mount Snow','Snow Highlands','Utz Mine','Polar Tjaele']
+        reg:['Galaxy Valley','Mount Snow','Snow Highlands','Utz Mine','Polar Tjaele'],
+        ket:[''],
+        ssn:[''],
+        wh:[''],
     },
     {
         id:1107,
@@ -792,7 +1037,10 @@ const rsr=[
         r_lvl:3,
         src:['bebatuan'],//xx
         cr:['menambang bebatuan lv. 3'],//xx
-        reg:['Galaxy Valley','Mount Snow','Snow Highlands','Utz Mine','Polar Tjaele']
+        reg:['Galaxy Valley','Mount Snow','Snow Highlands','Utz Mine','Polar Tjaele'],
+        ket:[''],
+        ssn:[''],
+        wh:[''],
     },
     {
         id:1108,
@@ -801,7 +1049,10 @@ const rsr=[
         r_lvl:3,
         src:['bebatuan'],//xx
         cr:['menambang bebatuan lv. 3'],//xx
-        reg:['Galaxy Valley','Mount Snow','Snow Highlands','Utz Mine','Polar Tjaele']
+        reg:['Galaxy Valley','Mount Snow','Snow Highlands','Utz Mine','Polar Tjaele'],
+        ket:[''],
+        ssn:[''],
+        wh:[''],
     },
     {
         id:1109,
@@ -811,6 +1062,9 @@ const rsr=[
         src:['bebatuan','chest'],//xx
         cr:['menambang bebatuan lv. 4','buka chest'],//xx
         reg:['River Area','Levin City','Levin City Dawn District','Miska Town','Wolf Hunting Field','Black Pearl Area'],
+        ket:[''],
+        ssn:[''],
+        wh:[''],
     },
     {
         id:1110,
@@ -820,7 +1074,9 @@ const rsr=[
         src:['bebatuan'],//xx
         cr:['menambang bebatuan lv. 4 &#8211; Enriched)'],//xx
         reg:['River Area','Levin City','Levin City Dawn District','Miska Town','Wolf Hunting Field','Black Pearl Area'],
-        ket:'butuh cert "Miner 3"'
+        ket:['butuh cert "Miner 3"'],
+        ssn:[''],
+        wh:[''],
     },
     {
         id:1111,
@@ -830,6 +1086,9 @@ const rsr=[
         src:['bebatuan'],//xx
         cr:['menambang bebatuan lv. 5'],//xx
         reg:['Santopany','Redwood Town','Lesins Port','Miska Town','Mount Apparition'],
+        ket:[''],
+        ssn:[''],
+        wh:[''],
     },
 
     //HASIL TAMBANG DI HALAMAN manor
@@ -840,7 +1099,10 @@ const rsr=[
         r_lvl:2,
         src:['bebatuan'],//xx
         cr:['ekstraksi di tambang halaman manor (alloy drill bit)'],//xx
-        reg:['camp']
+        reg:['camp'],
+        ket:[''],
+        ssn:[''],
+        wh:[''],
     },
 
     //PERLENGKAPAN PERTAMBANGAN
@@ -851,7 +1113,10 @@ const rsr=[
         r_lvl:1,
         src:['chest'],//xx
         cr:['buka chest'],//xx
-        reg:['Fall Forest']
+        reg:['Fall Forest'],
+        ket:[''],
+        ssn:[''],
+        wh:[''],
     },
     {
         id:1302,
@@ -860,7 +1125,10 @@ const rsr=[
         r_lvl:2,
         src:['chest'],//xx
         cr:['buka chest'],//xx
-        reg:['Blade Hunter Base']
+        reg:['Blade Hunter Base'],
+        ket:[''],
+        ssn:[''],
+        wh:[''],
     },
     {
         id:1303,
@@ -869,7 +1137,10 @@ const rsr=[
         r_lvl:4,
         src:['chest'],//xx
         cr:['buka chest'],//xx
-        reg:['Levin City']
+        reg:['Levin City'],
+        ket:[''],
+        ssn:[''],
+        wh:[''],
     },
     {
         id:1304,
@@ -879,7 +1150,9 @@ const rsr=[
         src:['Tex Brandon'],//xx
         cr:['beli dari Tex Brandon'],//xx
         reg:['camp'],
-        ket:'butuh cert "Mining Expert"'
+        ket:['butuh cert "Mining Expert"'],
+        ssn:[''],
+        wh:[''],
     },
     {
         id:1305,
@@ -888,7 +1161,10 @@ const rsr=[
         r_lvl:1,
         src:['chest'],//xx
         cr:['buka chest','Tentara Scientia'],//xx
-        reg:['Fall Forest','Mount Snow']
+        reg:['Fall Forest','Mount Snow'],
+        ket:[''],
+        ssn:[''],
+        wh:[''],
     },
 
     //PERLENGKAPAN BANGUNAN, ARMOR, DAN SENJATA
@@ -899,7 +1175,10 @@ const rsr=[
         r_lvl:0,
         src:['toko furnitur'],//xx
         cr:['beli'],//xx
-        reg:['Hope 101','trade city']
+        reg:['Hope 101','trade city'],
+        ket:[''],
+        ssn:[''],
+        wh:[''],
     },
     {
         id:1402,
@@ -908,7 +1187,10 @@ const rsr=[
         r_lvl:0,
         src:['toko furnitur'],//xx
         cr:['beli'],//xx
-        reg:['Hope 101','camp','trade city']
+        reg:['Hope 101','camp','trade city'],
+        ket:[''],
+        ssn:[''],
+        wh:[''],
     },
     {
         id:1403,
@@ -918,7 +1200,9 @@ const rsr=[
         src:['toko furnitur'],//xx
         cr:['beli'],//xx
         reg:['Hope 101','camp','trade city'],
-        ket:'jika ingin beli di camp, camp sudah harus masuk Agricultural period.'
+        ket:['jika ingin beli di camp, camp sudah harus masuk Agricultural period.'],
+        ssn:[''],
+        wh:[''],
     },
 
 
