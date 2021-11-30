@@ -1,5 +1,5 @@
 const theadr=['Nama','Nama Indonesia','Resource Level','Sumber','Cara mendapatkan','Tempat','Keterangan'];
-function liGen(cdw,ul){
+function liGen(cdw,ul,i){
     for(var j=0;j<cdw.length;j++){
         var li=document.createElement('li');
         ul.appendChild(li);
@@ -20,9 +20,9 @@ function tableprinting(brg){
         tr.appendChild(th);
     }
     switch(brg){
-        case 'daging':bst=1,bfi=4;break;
-        case 'ikan':bst=11,bfi=13;break;
-        case 'sayur':bst=91,bfi=102;break;
+        case 'daging':bst=1,bfi=100;break;
+        case 'ikan':bst=101,bfi=200;break;
+        case 'hewanil':bst=201,bfi=300;break;
     }
     for(var i=0;i<rsr.length;i++){
         if(rsr[i].id>=bst&&rsr[i].id<=bfi){
@@ -41,17 +41,17 @@ function tableprinting(brg){
             tr.appendChild(td);
             var ul=document.createElement('ul');
             td.appendChild(ul);
-            liGen(rsr[i].src,ul);
+            liGen(rsr[i].src,ul,i);
             td=document.createElement('td');
             tr.appendChild(td);
             ul=document.createElement('ul');
             td.appendChild(ul);
-            liGen(rsr[i].cr,ul);
+            liGen(rsr[i].cr,ul,i);
             td=document.createElement('td');
             tr.appendChild(td);
             ul=document.createElement('ul');
             td.appendChild(ul);
-            liGen(rsr[i].reg,ul);
+            liGen(rsr[i].reg,ul,i);
             td=document.createElement('td');
             tr.appendChild(td);
             if(rsr[i].ket||rsr[i].ssn||rsr[i].wh){

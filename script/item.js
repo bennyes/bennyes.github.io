@@ -38,35 +38,71 @@ const rsr=[
     },
     //IKAN
     {
-        id:11,
+        id:101,
         nama:'catfish',
         n_id:'lele',
-        r_lvl:0,
+        r_lvl:1,
         src:['pemancingan lv.1'],//xx
         cr:['memancing'],//xx
         reg:['semua perairan']//xx
     },
     {
-        id:12,
+        id:102,
         nama:'grass carp',
         n_id:'karp rumput (?)',
-        r_lvl:0,
+        r_lvl:1,
         src:['pemancingan lv.1'],//xx
         cr:['memancing'],//xx
         reg:['semua perairan']//xx
     },
     {
-        id:13,
+        id:103,
         nama:'eel',
         n_id:'belut',
-        r_lvl:0,
+        r_lvl:1,
         src:['pemancingan lv.1'],//xx
         cr:['memancing'],//xx
         reg:['semua perairan']//xx
+    },
+    {
+        id:104,
+        nama:'carp',
+        n_id:'karp',
+        r_lvl:1,
+        src:['pemancingan lv.1'],//xx
+        cr:['memancing'],//xx
+        reg:['semua perairan']//xx
+    },
+    {
+        id:105,
+        nama:'river crab',
+        n_id:'kepiting air tawar',
+        r_lvl:1,
+        src:['pemancingan lv.1'],//xx
+        cr:['memancing'],//xx
+        reg:['semua perairan']//xx
+    },
+    {
+        id:106,
+        nama:'shrimp',
+        n_id:'udang',
+        r_lvl:1,
+        src:['pemancingan lv.1'],//xx
+        cr:['memancing'],//xx
+        reg:['semua perairan']//xx
+    },
+    {
+        id:107,
+        nama:'puffer fish',
+        n_id:'ikan buntal',
+        r_lvl:2,
+        src:['pemancingan lv.2'],//xx
+        cr:['memancing'],//xx
+        reg:['']//xx
     },
     //HEWANI NON DAGING/IKAN
     {
-        id:11,
+        id:201,
         nama:'milk',
         n_id:'susu',
         r_lvl:0,
@@ -75,7 +111,7 @@ const rsr=[
         reg:['Camp']
     },
     {
-        id:12,
+        id:202,
         nama:'egg',
         n_id:'telur',
         r_lvl:0,
@@ -84,7 +120,7 @@ const rsr=[
         reg:['Camp']
     },
     {
-        id:13,
+        id:203,
         nama:'honey',
         n_id:'madu',
         r_lvl:0,
@@ -95,7 +131,7 @@ const rsr=[
 
     //HEWANI NON PANGAN
     {
-        id:21,
+        id:301,
         nama:'bone',
         n_id:'tulang',
         r_lvl:1,
@@ -104,7 +140,7 @@ const rsr=[
         reg:['Clear Sky Wheat Field','Fall Forest','Summer Rain Highway','Camp']//xx
     },
     {
-        id:22,
+        id:302,
         nama:'hide',
         n_id:'kulit binatang',
         r_lvl:1,
@@ -113,7 +149,7 @@ const rsr=[
         reg:['Clear Sky Wheat Field','Fall Forest','Summer Rain Highway','Camp']//xx
     },
     {
-        id:23,
+        id:303,
         nama:'claw',
         n_id:'cakar',
         r_lvl:2,
@@ -122,7 +158,7 @@ const rsr=[
         reg:['Assyrian Hills','Blade Hunter Base']//xx
     },
     {
-        id:24,
+        id:304,
         nama:'beast tendon',
         n_id:'urat',
         r_lvl:2,
@@ -131,7 +167,7 @@ const rsr=[
         reg:['Assyrian Hills','Blade Hunter Base']
     },
     {
-        id:25,
+        id:305,
         nama:'grease',
         n_id:'lemak hewani',
         r_lvl:3,
@@ -140,7 +176,7 @@ const rsr=[
         reg:['Galaxy Valley','Mount Snow','Snow Highlands','Utz Mine','Polar Tjaele']//xx
     },
     {
-        id:26,
+        id:306,
         nama:'beast horn',
         n_id:'tanduk hewan',
         r_lvl:3,
@@ -149,7 +185,7 @@ const rsr=[
         reg:['Galaxy Valley','Mount Snow','Snow Highlands','Utz Mine','Polar Tjaele']
     },
     {
-        id:27,
+        id:307,
         nama:'rugged leather',
         n_id:'kulit keras/kasar',
         r_lvl:3,
@@ -158,7 +194,7 @@ const rsr=[
         reg:['Galaxy Valley','Mount Snow','Snow Highlands','Utz Mine','Polar Tjaele']
     },
     {
-        id:28,
+        id:308,
         nama:'beast tooth',
         n_id:'taring',
         r_lvl:4,
@@ -167,7 +203,7 @@ const rsr=[
         reg:['River Area','Levin City','Levin City Dawn District','Miska Town','Wolf Hunting Field','Black Pearl Area'],
     },
     {
-        id:29,
+        id:309,
         nama:'beast fur',
         n_id:'rambut hewan',
         r_lvl:4,
@@ -176,7 +212,7 @@ const rsr=[
         reg:['River Area','Levin City','Levin City Dawn District','Miska Town','Wolf Hunting Field','Black Pearl Area'],
     },
     {
-        id:30,
+        id:310,
         nama:'beast blood',
         n_id:'darah hewan',
         r_lvl:5,
@@ -185,7 +221,7 @@ const rsr=[
         reg:['']//xx
     },
     {
-        id:31,
+        id:311,
         nama:'rugged tail',
         n_id:'ekor',
         r_lvl:5,
@@ -194,7 +230,7 @@ const rsr=[
         reg:['']//xx
     },
     {
-        id:32,
+        id:312,
         nama:'beast hoof',
         n_id:'tapak hewan',
         r_lvl:6,
@@ -203,7 +239,7 @@ const rsr=[
         reg:['']//xx
     },
     {
-        id:33,
+        id:313,
         nama:'beast spine',
         n_id:'tulang belakang',
         r_lvl:6,
@@ -214,7 +250,7 @@ const rsr=[
 
     //BUAH-BUAHAN 61-76
     {
-        id:61,
+        id:401,
         nama:'berries',
         n_id:'beri',
         r_lvl:0,
@@ -223,7 +259,7 @@ const rsr=[
         reg:['semua tempat']
     },
     {
-        id:62,
+        id:402,
         nama:'berries',
         n_id:'beri',
         r_lvl:0,
@@ -232,7 +268,7 @@ const rsr=[
         reg:['semua tempat']
     },
     {
-        id:999,
+        id:403,
         nama:'coconut',
         n_id:'kelapa',
         r_lvl:0,
@@ -245,7 +281,7 @@ const rsr=[
     //stroberi:sand shelter land
     //SAYURAN/PALAWIJA/JAMUR 91-
     {
-        id:91,
+        id:501,
         nama:'rapeseed',
         n_id:'rapeseed / rapa',
         r_lvl:0,
@@ -254,7 +290,7 @@ const rsr=[
         reg:['Clear Sky Wheat Field','Fall Forest','Summer Rain Highway','Assyrian Hills']
     },
     {
-        id:92,
+        id:502,
         nama:'berries',
         n_id:'beri',
         r_lvl:0,
@@ -263,7 +299,7 @@ const rsr=[
         reg:['semua tempat']
     },
     {
-        id:93,
+        id:503,
         nama:'mushroom',
         n_id:'jamur',
         r_lvl:0,
@@ -273,7 +309,7 @@ const rsr=[
         wh:['rain']
     },
     {
-        id:94,
+        id:504,
         nama:'bamboo shoots',
         n_id:'rebung',
         r_lvl:0,
@@ -283,7 +319,7 @@ const rsr=[
         ssn:['spring']
     },
     {
-        id:95,
+        id:505,
         nama:'cucumber',
         n_id:'timun',
         r_lvl:0,
@@ -293,7 +329,7 @@ const rsr=[
         ssn:['summer']
     },
     {
-        id:96,
+        id:506,
         nama:'radish',
         n_id:'lobak',
         r_lvl:0,
@@ -303,7 +339,7 @@ const rsr=[
         ssn:['winter']
     },
     {
-        id:97,
+        id:507,
         nama:'pumpkin',
         n_id:'labu',
         r_lvl:0,
@@ -312,18 +348,20 @@ const rsr=[
         reg:['Mount Snow','Farstar City']
     },
     {
-        id:98,
+        id:508,
         nama:'matsutake mushroom',
         n_id:'matsutake',
+        link:'matsutake',
         r_lvl:0,
         src:['jamur matsutake'],//xx
         cr:['mengumpulkan'],//xx
         reg:['Mount Snow','Snow Highlands','Snowfield Shelter Land (camp)']
     },
     {
-        id:99,
+        id:509,
         nama:'cave mushroom',
         n_id:'jamur goa',
+        link:'cave-mushroom',
         r_lvl:0,
         src:['jamur warna ungu muda'],//xx
         cr:['mengumpulkan'],//xx
@@ -331,7 +369,7 @@ const rsr=[
         ket:['dekat dan dalam cave (goa)']
     },
     {
-        id:100,
+        id:510,
         nama:'corn',
         n_id:'jagung',
         r_lvl:0,
@@ -340,7 +378,7 @@ const rsr=[
         reg:['Mount Apparition','Redwood Town','Wilderness Shelter Land (camp)'],
     },
     {
-        id:101,
+        id:511,
         nama:'cayenne pepper',
         n_id:'cabe cayenne',
         r_lvl:0,
@@ -349,7 +387,7 @@ const rsr=[
         reg:['Lawrence Bay','Santopany','Mouth Town','Blaze Shelter Land (camp)'],
     },
     {
-        id:102,
+        id:512,
         nama:'carrot',
         n_id:'wortel',
         r_lvl:0,
@@ -360,7 +398,7 @@ const rsr=[
 
     //NABATI NON PANGAN
     {
-        id:131,
+        id:601,
         nama:'wood',
         n_id:'kayu',
         r_lvl:0,
@@ -369,7 +407,7 @@ const rsr=[
         reg:['semua tempat']//xx
     },
     {
-        id:132,
+        id:602,
         nama:'twig',
         n_id:'ranting',
         r_lvl:1,
@@ -378,7 +416,7 @@ const rsr=[
         reg:['Clear Sky Wheat Field','Fall Forest','Summer Rain Highway']//xx
     },
     {
-        id:133,
+        id:603,
         nama:'hardwood vine',
         n_id:'tumbuhan menjalar',
         r_lvl:1,
@@ -388,7 +426,7 @@ const rsr=[
         wh:['rain']
     },
     {
-        id:134,
+        id:604,
         nama:'hemp',
         n_id:'ganja rami',
         r_lvl:0,
@@ -397,7 +435,7 @@ const rsr=[
         reg:['semua tempat']//xx
     },
     {
-        id:135,
+        id:605,
         nama:'plant root',
         n_id:'akar',
         r_lvl:1,
@@ -406,7 +444,7 @@ const rsr=[
         reg:['Clear Sky Wheat Field','Fall Forest','Summer Rain Highway']//xx
     },
     {
-        id:136,
+        id:606,
         nama:'wood core',
         n_id:'wood core (?)',
         r_lvl:2,
@@ -415,7 +453,7 @@ const rsr=[
         reg:['Assyrian Hills','Blade Hunter Base']//xx
     },
     {
-        id:137,
+        id:607,
         nama:'hemp stem',
         n_id:'batang hemp',
         r_lvl:2,
@@ -424,7 +462,7 @@ const rsr=[
         reg:['Assyrian Hills','Blade Hunter Base']//xx
     },
     {
-        id:138,
+        id:608,
         nama:'hemp bast',
         n_id:'serat hemp',
         r_lvl:2,
@@ -433,7 +471,7 @@ const rsr=[
         reg:['Assyrian Hills','Blade Hunter Base']//xx
     },
     {
-        id:139,
+        id:609,
         nama:'old cypress',
         n_id:'batang cypress tua',
         r_lvl:3,
@@ -442,7 +480,7 @@ const rsr=[
         reg:['Galaxy Valley','Mount Snow','Snow Highlands','Utz Mine','Polar Tjaele']
     },
     {
-        id:140,
+        id:610,
         nama:'cypress leaf',
         n_id:'daun cypress',
         r_lvl:3,
@@ -451,7 +489,7 @@ const rsr=[
         reg:['Galaxy Valley','Mount Snow','Snow Highlands','Utz Mine','Polar Tjaele']
     },
     {
-        id:141,
+        id:611,
         nama:'cracked tough hide',
         n_id:'?',
         r_lvl:3,
@@ -460,7 +498,7 @@ const rsr=[
         reg:['Galaxy Valley','Mount Snow','Snow Highlands','Utz Mine','Polar Tjaele']
     },
     {
-        id:142,
+        id:612,
         nama:'flax leaf',
         n_id:'daun flaks/daun rami',
         r_lvl:3,
@@ -469,7 +507,7 @@ const rsr=[
         reg:['Galaxy Valley','Mount Snow','Snow Highlands','Utz Mine','Polar Tjaele']
     },
     {
-        id:143,
+        id:613,
         nama:'flax petal',
         n_id:'mahkota bunga flaks',
         r_lvl:3,
@@ -478,7 +516,7 @@ const rsr=[
         reg:['Galaxy Valley','Mount Snow','Snow Highlands','Utz Mine','Polar Tjaele']
     },
     {
-        id:144,
+        id:614,
         nama:'kenaf leaf',
         n_id:'daun kenaf',
         r_lvl:3,
@@ -487,7 +525,7 @@ const rsr=[
         reg:['Galaxy Valley','Mount Snow','Snow Highlands','Utz Mine','Polar Tjaele']
     },
     {
-        id:145,
+        id:615,
         nama:'boxwood',
         n_id:'kayu balok (?)',
         r_lvl:4,
@@ -496,7 +534,7 @@ const rsr=[
         reg:['Mount Snow','River Area','Levin City','Levin City Dawn District','Miska Town','Wolf Hunting Field','Black Pearl Area']
     },
     {
-        id:146,
+        id:616,
         nama:'broadleaf',
         n_id:'daun lebar (?)',
         r_lvl:4,
@@ -506,7 +544,7 @@ const rsr=[
         ket:'butuh cert "Logger 2"'
     },
     {
-        id:147,
+        id:617,
         nama:'jute leaf',
         n_id:'daun yute',
         r_lvl:4,
@@ -515,7 +553,7 @@ const rsr=[
         reg:['River Area','Levin City','Levin City Dawn District','Miska Town','Wolf Hunting Field','Black Pearl Area'],
     },
     {
-        id:148,
+        id:618,
         nama:'old oak',
         n_id:'batang ek tua',
         r_lvl:5,
@@ -525,7 +563,7 @@ const rsr=[
     },
     //BIBIT/BENIH
     {
-        id:201,
+        id:701,
         nama:'berry seed',
         n_id:'biji beri',
         r_lvl:1,
@@ -534,7 +572,7 @@ const rsr=[
         reg:['semua tempat']
     },
     {
-        id:202,
+        id:702,
         nama:'sapling',
         n_id:'bibit pohon',
         r_lvl:1,
@@ -543,7 +581,7 @@ const rsr=[
         reg:['Clear Sky Wheat Field','Fall Forest','Summer Rain Highway']
     },
     {
-        id:203,
+        id:703,
         nama:'oak seedling',
         n_id:'benih pohon ek',
         r_lvl:2,
@@ -552,7 +590,7 @@ const rsr=[
         reg:['Assyrian Hills','Blade Hunter Base']
     },
     {
-        id:204,
+        id:704,
         nama:'castor seed',
         n_id:'biji jarak',
         r_lvl:2,
@@ -561,7 +599,7 @@ const rsr=[
         reg:['Assyrian Hills','Blade Hunter Base']
     },
     {
-        id:205,
+        id:705,
         nama:'ginkgo seedling',
         n_id:'benih ginkgo',
         r_lvl:3,
@@ -573,7 +611,7 @@ const rsr=[
     
     //HASIL tumbuhan DARI BERKEBUN DI HALAMAN manor
     {
-        id:231,
+        id:801,
         nama:'little branch',
         n_id:'dahan kecil',
         r_lvl:2,
@@ -582,7 +620,7 @@ const rsr=[
         reg:['camp']
     },
     {
-        id:232,
+        id:802,
         nama:'tree oil',
         n_id:'minyak pohon',
         r_lvl:3,
@@ -592,7 +630,7 @@ const rsr=[
     },
     //BAHAN PANGAN
     {
-        id:251,
+        id:901,
         nama:'cooking oil',
         n_id:'minyak goreng',
         r_lvl:0,
@@ -601,7 +639,7 @@ const rsr=[
         reg:['camp','Hope 101']
     },
     {
-        id:252,
+        id:902,
         nama:'sauce',
         n_id:'saus',
         r_lvl:0,
@@ -610,7 +648,7 @@ const rsr=[
         reg:['camp','Hope 101']
     },
     {
-        id:253,
+        id:903,
         nama:'leek, ginger, and garlic',
         n_id:'daun bawang/bawang prei, jahe, dan bawang putih',
         r_lvl:0,
@@ -619,7 +657,7 @@ const rsr=[
         reg:['camp','Hope 101']
     },
     {
-        id:254,
+        id:904,
         nama:'seasoning',
         n_id:'bumbu/rempah-rempah',
         r_lvl:0,
@@ -628,7 +666,7 @@ const rsr=[
         reg:['camp','Hope 101']
     },
     {
-        id:255,
+        id:905,
         nama:'sugar',
         n_id:'gula',
         r_lvl:0,
@@ -637,7 +675,7 @@ const rsr=[
         reg:['camp','Hope 101']
     },
     {
-        id:256,
+        id:906,
         nama:'tofu',
         n_id:'tahu',
         r_lvl:0,
@@ -646,7 +684,7 @@ const rsr=[
         reg:['camp','Hope 101']
     },
     {
-        id:257,
+        id:907,
         nama:'vermicelli',
         n_id:'bihun',
         r_lvl:0,
@@ -655,7 +693,7 @@ const rsr=[
         reg:['camp','Hope 101']
     },
     {
-        id:258,
+        id:908,
         nama:'ice cubes',
         n_id:'es batu',
         r_lvl:0,
@@ -665,7 +703,7 @@ const rsr=[
     },
     //PERLENGKAPAN BERKEBUN
     {
-        id:281,
+        id:1001,
         nama:'feces fertilizer',
         n_id:'pupuk kandang/pupuk kotoran',
         r_lvl:0,
@@ -674,7 +712,7 @@ const rsr=[
         reg:['camp']
     },
     {
-        id:282,
+        id:1002,
         nama:'common fertilizer',
         n_id:'pupuk biasa',
         r_lvl:0,
@@ -683,7 +721,7 @@ const rsr=[
         reg:['Clear Sky Wheat Field','Fall Forest','Summer Rain Highway','Assyrian Hills']
     },
     {
-        id:283,
+        id:1003,
         nama:'advanced fertilizer',
         n_id:'pupuk bagus',
         r_lvl:0,
@@ -693,7 +731,7 @@ const rsr=[
     },
     //HASIL TAMBANG
     {
-        id:321,
+        id:1101,
         nama:'stone',
         n_id:'batu',
         r_lvl:0,
@@ -702,7 +740,7 @@ const rsr=[
         reg:['semua tempat']
     },
     {
-        id:322,
+        id:1102,
         nama:'iron ore',
         n_id:'bijih besi',
         r_lvl:1,
@@ -711,7 +749,7 @@ const rsr=[
         reg:['Clear Sky Wheat Field','Fall Forest','Summer Rain Highway','camp']
     },
     {
-        id:323,
+        id:1103,
         nama:'flint',
         n_id:'rijang',
         r_lvl:1,
@@ -721,7 +759,7 @@ const rsr=[
         wh:['Tidak hujan']
     },
     {
-        id:324,
+        id:1104,
         nama:'tin ore',
         n_id:'bijih timah',
         r_lvl:2,
@@ -730,7 +768,7 @@ const rsr=[
         reg:['Assyrian Hills','Blade Hunter Base']
     },
     {
-        id:325,
+        id:1105,
         nama:'sulfur',
         n_id:'belerang',
         r_lvl:2,
@@ -739,7 +777,7 @@ const rsr=[
         reg:['Assyrian Hills','Blade Hunter Base']
     },
     {
-        id:326,
+        id:1106,
         nama:'aluminum ore',
         n_id:'bijih aluminium / bauksit',
         r_lvl:3,
@@ -748,7 +786,7 @@ const rsr=[
         reg:['Galaxy Valley','Mount Snow','Snow Highlands','Utz Mine','Polar Tjaele']
     },
     {
-        id:327,
+        id:1107,
         nama:'malachite',
         n_id:'malasit',
         r_lvl:3,
@@ -757,7 +795,7 @@ const rsr=[
         reg:['Galaxy Valley','Mount Snow','Snow Highlands','Utz Mine','Polar Tjaele']
     },
     {
-        id:328,
+        id:1108,
         nama:'kyanite',
         n_id:'kyanit',
         r_lvl:3,
@@ -766,7 +804,7 @@ const rsr=[
         reg:['Galaxy Valley','Mount Snow','Snow Highlands','Utz Mine','Polar Tjaele']
     },
     {
-        id:329,
+        id:1109,
         nama:'copper ore',
         n_id:'bijih tembaga (kemungkinan kalkopirit)',
         r_lvl:4,
@@ -775,17 +813,17 @@ const rsr=[
         reg:['River Area','Levin City','Levin City Dawn District','Miska Town','Wolf Hunting Field','Black Pearl Area'],
     },
     {
-        id:330,
+        id:1110,
         nama:'silicon',
         n_id:'silikon',
         r_lvl:4,
         src:['bebatuan'],//xx
-        cr:['menambang bebatuan lv. 4 khusus'],//xx
+        cr:['menambang bebatuan lv. 4 &#8211; Enriched)'],//xx
         reg:['River Area','Levin City','Levin City Dawn District','Miska Town','Wolf Hunting Field','Black Pearl Area'],
         ket:'butuh cert "Miner 3"'
     },
     {
-        id:331,
+        id:1111,
         nama:'silver ore',
         n_id:'bijih perak (akantit/argentit)',
         r_lvl:5,
@@ -796,7 +834,7 @@ const rsr=[
 
     //HASIL TAMBANG DI HALAMAN manor
     {
-        id:361,
+        id:1201,
         nama:'potassium nitrate',
         n_id:'kalium nitrat',
         r_lvl:2,
@@ -807,7 +845,7 @@ const rsr=[
 
     //PERLENGKAPAN PERTAMBANGAN
     {
-        id:381,
+        id:1301,
         nama:'cast iron drill bit',
         n_id:'mata bor dari besi tuang',
         r_lvl:1,
@@ -816,7 +854,7 @@ const rsr=[
         reg:['Fall Forest']
     },
     {
-        id:382,
+        id:1302,
         nama:'alloy drill bit',
         n_id:'mata bor dari logam campuran',
         r_lvl:2,
@@ -825,7 +863,7 @@ const rsr=[
         reg:['Blade Hunter Base']
     },
     {
-        id:383,
+        id:1303,
         nama:'diamond drill bit',
         n_id:'mata bor dari permata',
         r_lvl:4,
@@ -834,7 +872,7 @@ const rsr=[
         reg:['Levin City']
     },
     {
-        id:384,
+        id:1304,
         nama:'carbon steel drill',
         n_id:'bor baja',
         r_lvl:0,
@@ -844,7 +882,7 @@ const rsr=[
         ket:'butuh cert "Mining Expert"'
     },
     {
-        id:385,
+        id:1305,
         nama:'drill engine oil',
         n_id:'oli bor',
         r_lvl:1,
@@ -855,7 +893,7 @@ const rsr=[
 
     //PERLENGKAPAN BANGUNAN, ARMOR, DAN SENJATA
     {
-        id:401,
+        id:1401,
         nama:'lime',
         n_id:'kapur',
         r_lvl:0,
@@ -864,7 +902,7 @@ const rsr=[
         reg:['Hope 101','trade city']
     },
     {
-        id:402,
+        id:1402,
         nama:'sandstone',
         n_id:'batu pasir',
         r_lvl:0,
@@ -873,7 +911,7 @@ const rsr=[
         reg:['Hope 101','camp','trade city']
     },
     {
-        id:403,
+        id:1403,
         nama:'granite',
         n_id:'granit',
         r_lvl:0,
