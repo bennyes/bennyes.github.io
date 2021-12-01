@@ -25,16 +25,19 @@ function tableformat(tableID,i,tr){
     td=document.createElement('td');
     tr.appendChild(td);
     var ul=document.createElement('ul');
+    ul.classList.add('nomarginbottom');
     td.appendChild(ul);
     liGen(rsr[i].src,ul,i);
     td=document.createElement('td');
     tr.appendChild(td);
     ul=document.createElement('ul');
+    ul.classList.add('nomarginbottom');
     td.appendChild(ul);
     liGen(rsr[i].cr,ul,i);
     td=document.createElement('td');
     tr.appendChild(td);
     ul=document.createElement('ul');
+    ul.classList.add('nomarginbottom');
     td.appendChild(ul);
     liGen(rsr[i].reg,ul,i);
     td=document.createElement('td');
@@ -44,6 +47,7 @@ function tableformat(tableID,i,tr){
         console.log('-');
     }else{
         ul=document.createElement('ul');
+        ul.classList.add('nomarginbottom');
         td.appendChild(ul);
         if(rsr[i].ket){liGen(rsr[i].ket,ul,i,'keterangan');}
         if(rsr[i].ssn){liGen(rsr[i].ssn,ul,i,'musim');}
