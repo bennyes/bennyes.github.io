@@ -54,7 +54,7 @@ function tableformat(tableID,i,tr){
         if(rsr[i].wh){liGen(rsr[i].wh,ul,i,'cuaca');}
     }
 }
-function tableprinting(brg){
+function tableprinting(brg,ord){
     var qry=document.getElementById('qry').value.toLowerCase();
     var tableID=document.getElementById('meatstable'),bst,bfi,what,tr=document.createElement('tr');
     tableID.innerHTML='';
@@ -83,6 +83,7 @@ function tableprinting(brg){
         case'batu':bst=1101,bfi=1300;break;
         case'minetool':bst=1301,bfi=1400;break;
         case'bagf':bst=1401,bfi=1500;break;
+        case'spec':bst=ord,bfi=ord;break;
         default:bst=1,bfi=1500;
     }
     for(var i=0;i<rsr.length;i++){
