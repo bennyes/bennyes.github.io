@@ -55,8 +55,7 @@ function tableformat(tableID,i,tr){
     }
 }
 function tableprinting(brg,ord){
-    var qry=document.getElementById('qry').value.toLowerCase();
-    var tableID=document.getElementById('meatstable'),bst,bfi,what,tr=document.createElement('tr');
+    var q=document.getElementById('qry').value.toLowerCase(),tableID=document.getElementById('meatstable'),bst,bfi,tr=document.createElement('tr');
     tableID.innerHTML='';
     tableID.appendChild(tr);
     for(var i=0;i<theadr.length;i++){
@@ -88,35 +87,35 @@ function tableprinting(brg,ord){
     }
     for(var i=0;i<rsr.length;i++){
         if(rsr[i].id>=bst&&rsr[i].id<=bfi){
-            if(!qry){tableformat(tableID,i,tr);}
-            else if(qry){
-                qry=(qry=='greac'||qry=='greace')?'grease':qry;
-                if(rsr[i].nama.toLowerCase().includes(qry)||rsr[i].n_id.includes(qry)||rsr[i].catg.find(x=>{
-                    if(x.toLowerCase().includes(qry)&&!x.toLowerCase().includes('non '+qry)){
+            if(!q){tableformat(tableID,i,tr);}
+            else if(q){
+                q=(q=='greac'||q=='greace')?'grease':(q=='fertilis'||q=='fertilise'||q=='fertiliser')?q='fertilizer':q;
+                if(rsr[i].nama.toLowerCase().includes(q)||rsr[i].n_id.includes(q)||rsr[i].catg.find(x=>{
+                    if(x.toLowerCase().includes(q)&&!x.toLowerCase().includes('non '+q)){
                       return true;
                     }else{return false;}
-                })||rsr[i].r_lvl==qry||rsr[i].src.find(x=>{
-                    if(x.toLowerCase().includes(qry)){
+                })||rsr[i].r_lvl==q||rsr[i].src.find(x=>{
+                    if(x.toLowerCase().includes(q)){
                       return true;
                     }else{return false;}
                 })||rsr[i].cr.find(x=>{
-                    if(x.toLowerCase().includes(qry)){
+                    if(x.toLowerCase().includes(q)){
                       return true;
                     }else{return false;}
                 })||rsr[i].reg.find(x=>{
-                    if(x.toLowerCase().replace(/[^a-zA-Z0-9]/, " ").includes(qry)){
+                    if(x.toLowerCase().replace(/[^a-zA-Z0-9]/, " ").includes(q)){
                       return true;
                     }else{return false;}
                 })||rsr[i].ket.find(x=>{
-                    if(x.toLowerCase().includes(qry)){
+                    if(x.toLowerCase().includes(q)){
                       return true;
                     }else{return false;}
                 })||rsr[i].ssn.find(x=>{
-                    if(x.toLowerCase().includes(qry)){
+                    if(x.toLowerCase().includes(q)){
                       return true;
                     }else{return false;}
                 })||rsr[i].wh.find(x=>{
-                    if(x.toLowerCase().includes(qry)){
+                    if(x.toLowerCase().includes(q)){
                       return true;
                     }else{return false;}
                 })){tableformat(tableID,i,tr);}
