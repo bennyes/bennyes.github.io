@@ -133,6 +133,32 @@ const rsr=[
     },
     {
         id:107,
+        nama:'spotted angelfish',
+        n_id:'ikan bidadari bertutul',
+        catg:['hewani','ikan'],
+        r_lvl:2,
+        src:['pemancingan lv.1'],//xx
+        cr:['memancing'],//xx
+        reg:['Fall Forest'],//xx
+        ket:[''],
+        ssn:[''],
+        wh:[''],
+    },
+    {
+        id:108,
+        nama:'mantis shrimp',
+        n_id:'udang sentadu',
+        catg:['hewani','ikan'],
+        r_lvl:2,
+        src:['pemancingan lv.1'],//xx
+        cr:['memancing'],//xx
+        reg:['Fall Forest'],//xx
+        ket:[''],
+        ssn:[''],
+        wh:[''],
+    },
+    {
+        id:109,
         nama:'puffer fish',
         n_id:'ikan buntal',
         catg:['hewani','ikan'],
@@ -935,6 +961,32 @@ const rsr=[
         r_lvl:3,
         src:['pohon ginkgo'],//xx
         cr:['menanam ginkgo seedling dan menebangnya di halaman manor'],//xx
+        reg:['camp'],
+        ket:[''],
+        ssn:[''],
+        wh:[''],
+    },
+    {
+        id:803,
+        nama:'wheat',
+        n_id:'bulir gandum',
+        catg:['kebun manor'],
+        r_lvl:3,
+        src:['tumbuhan gandum'],//xx
+        cr:['menanam dan memanen gandum di halaman manor'],//xx
+        reg:['camp'],
+        ket:[''],
+        ssn:[''],
+        wh:[''],
+    },
+    {
+        id:804,
+        nama:'rice ears',
+        n_id:'bulir padi',
+        catg:['kebun manor'],
+        r_lvl:3,
+        src:['tumbuhan padi'],//xx
+        cr:['menanam dan memanen padi di halaman manor'],//xx
         reg:['camp'],
         ket:[''],
         ssn:[''],
