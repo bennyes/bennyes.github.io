@@ -122,7 +122,7 @@ function tableprinting(brg,ord){
                     if(x.toLowerCase().includes(q)){
                       return true;
                     }else{return false;}
-                })){tableformat(tableID,i,tr);}
+                })){tableformat(itm.rsr,tableID,i,tr);}
             }
         }  
     }
