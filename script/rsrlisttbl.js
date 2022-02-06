@@ -10,6 +10,11 @@ function liGen(cdw,ul,i,ket){
         }
     }
 }
+function gd(){
+    var itm=new XMLHttpRequest();
+    itm.open("GET","https://bennyes.github.io/script/item.json",false);itm.send();
+    return JSON.parse(itm.responseText);
+}
 function tableformat(k,tableID,i,tr){
     tr=document.createElement('tr');
     tableID.appendChild(tr);
