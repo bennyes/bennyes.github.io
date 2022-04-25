@@ -31,6 +31,14 @@
     table.stempel,table.stempel tr,table.stempel tr td{border: 2px solid rgb(53, 0, 145);border-collapse:collapse;font-weight:900;font-size:15pt;color: rgb(53, 0, 145);text-transform:uppercase;}
     .wm{text-align:center;font-size:150pt;opacity:0.7;position:absolute;font-weight: bolder;transform:rotate(-45deg);top:450px;left:340px}
     footer{box-sizing: border-box;padding:8px;display: flex;gap: 30px;}
+    @media(max-width:600px){
+        .surat{
+            zoom: 0.5; /* Old IE only */
+    -moz-transform: scale(0.5);
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+    transform-origin: top left;}
+    }
 </style>
 <body>
     <div class="disclaimer">
