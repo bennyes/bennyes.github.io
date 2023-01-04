@@ -1,6 +1,6 @@
 # bbm.json
 
-**_MOHON BACA FILE README INI SEBELUM MENGGUNAKAN FILE bbm.json (TERUTAMA BAGIAN_** ```Besaran harga``` **_,_** ```Petunjuk penggunaan``` **_, DAN_** ```Disclaimer```**_)_**.
+**_MOHON BACA FILE README INI SEBELUM MENGGUNAKAN FILE bbm.json (TERUTAMA BAGIAN_** [Besaran harga](#besaran-harga) **_,_** [Petunjuk penggunaan](#petunjuk-penggunaan) **_, DAN_** [Disclaimer](#disclaimer)**_)_**.
 
 bbm.json adalah sebuah file json yang berisi harga-harga produk BBM yang beredar di Indonesia.
 
