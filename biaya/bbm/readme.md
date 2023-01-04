@@ -1,6 +1,6 @@
 # bbm.json
 
-**_MOHON BACA FILE README INI SEBELUM MENGGUNAKAN FILE bbm.json (TERUTAMA BAGIAN_** ```Besaran harga``` **_DAN_** ```Petunjuk penggunaan```**_)_**.
+**_MOHON BACA FILE README INI SEBELUM MENGGUNAKAN FILE bbm.json (TERUTAMA BAGIAN_** ```Besaran harga``` **_,_** ```Petunjuk penggunaan``` **_, DAN_** ```Disclaimer```**_)_**.
 
 bbm.json adalah sebuah file json yang berisi harga-harga produk BBM yang beredar di Indonesia.
 
@@ -64,17 +64,18 @@ Contoh, ingin menggunakan data harga BBM Pertalite
 let hargapertalite = hargabbm.pertamina.ron90;
 ```
 
-## Daftar produk BBM yang tersedia dan cara memanggil datanya
+## Daftar produk BBM yang tersedia
 ### 1. Pertamina
-- Pertalite (RON 90):
-- Pertamax (RON 92)
-- Pertamax Turbo (RON 98)
-- Solar (CN 48)
-- Dexlite (CN 51)
-- Pertamina Dex (CN 53)
+- Pertalite (RON 90): ```pertamina.ron90```
+- Pertamax (RON 92): ```pertamina.ron92```
+- Pertamax Turbo (RON 98): ```pertamina.ron98```
+- Solar (CN 48): ```pertamina.cn48```
+- Dexlite (CN 51): ```pertamina.cn51```
+- Pertamina Dex (CN 53): ```pertamina.cn53```
 
 ### 2. Petunjuk penggunaan produk lainnya menyusul
 
 ## DISCLAIMER
 
-Pemilik *repository* dan file ini **TIDAK BERTANGGUNG JAWAB ATAS DAMPAK PENGGUNAAN bbm.json DALAM SITUS, BLOG, ATAU APLIKASI ANDA, BAHKAN KEHIDUPAN ANDA**.
+- Pemilik *repository* dan file ini **_TIDAK BERTANGGUNG JAWAB ATAS DAMPAK PENGGUNAAN bbm.json DALAM SITUS, BLOG, ATAU APLIKASI ANDA, BAHKAN KEHIDUPAN ANDA_**.
+- File ini **_TIDAK DAPAT DIJADIKAN SUMBER/RUJUKAN UTAMA_**. Silahkan menuju website resmi perusahaan masing-masing atau peraturan pemerintah untuk menjadikannya sumber utama.
