@@ -21,7 +21,7 @@ Harga tercantum dalam Rupiah.
 
 Harga BBM subsidi seperti Pertalite dan Solar jarang berubah. Harga BBM subsidi di file bbm.json benar-benar mengikuti ketentuan harga dari pemerintah.
 
-Sedangkan untuk BBM non-subsidi, harganya cenderung berubah-ubah mengikuti harga minyak mentah. **_Harga BBM non-subsidi akan diupdate setidaknya 2 bulan sekali, serta dicantumkan sebesar Rp 500 sampai Rp 1000 lebih tinggi daripada harga aslinya_ untuk mengantisipasi perubahan harga yang cepat**.
+Sedangkan untuk BBM non-subsidi, harganya cenderung berubah-ubah mengikuti harga minyak mentah. **_Harga BBM non-subsidi akan diupdate setidaknya 2 bulan sekali, serta dicantumkan berbeda dari aslinya, dengan perbedaan sebesar Rp 500 sampai Rp 1000_ untuk mengantisipasi perubahan harga yang cepat**.
 
 ## Petunjuk penggunaan
 
