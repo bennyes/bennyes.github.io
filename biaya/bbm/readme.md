@@ -37,13 +37,13 @@ function getjsonfile(a){ // a = link file bbm.json
 }
 ```
 
-2. Kemudian panggil fungsi
+Kemudian panggil fungsi
 
 ```javascript
 const hargabbm = getjsonfile("https://bennyes.github.io/biaya/bbm/bbm.json");
 ```
 
-3. Kemudian sebutkan salah satu produk bbm yang diinginkan.
+2. Kemudian sebutkan salah satu produk bbm yang diinginkan.
 
 ### Contoh dalam JavaScript
 
