@@ -1,6 +1,6 @@
-function gettoldata(f,r,m,k){
+function gettoldata(f,r,g,m,k){
     const tol=getjsonfile(`https://bennyes.github.io/biaya/tol/${f}.json`);
-    //const tol=getjsonfile(`tolbanten.json`);
-    let tarif=tol[r][m][k];
+    let type=tol[r]["type"];
+    let tarif=(type==="closed")?tol[r][m][k][g]:tol[r][g];
     return tarif;
 }
