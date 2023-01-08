@@ -1,1 +1,1 @@
-function getjsonfile(wx){var jfile=new XMLHttpRequest();jfile.open("GET",wx,false);jfile.send();return JSON.parse(jfile.responseText);}
+function getjsonfile(wx){var jfile=new XMLHttpRequest();jfile.open("GET",wx,false);jfile.send();return JSON.parse(jfile.responseText);}function gettoldata(f,r,g,m,k){const tol=getjsonfile(`https://bennyes.github.io/biaya/tol/${f}.json`);let type=tol[r]["type"];let t=(type==="closed")?tol[r][m][k][g]:tol[r][g];return t;}
