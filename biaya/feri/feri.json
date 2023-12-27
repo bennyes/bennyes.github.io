@@ -1,1 +1,25 @@
-{"update":"2023-01-04T18:00:00","merak_bakau":{"reguler":{"bayi":1750,"dewasa":21600,"i":25100,"ii":58550,"iii":126350,"iva":457700},"expres":{"bayi":4000,"dewasa":77000,"i":78000,"ii":108000,"iii":168000,"iva":644000}},"ketapang_gilimanuk":{"status":"coming soon"}}
+{
+    "update":"2023-12-27T08:45:00",
+    "admin":2500,
+    "merak_bakau":{
+        "reguler":{
+            "bayi":1800,
+            "dewasa":22700,
+            "i":26500,
+            "ii":62100,
+            "iii":133000,
+            "iva":481800
+        },
+        "express":{
+            "bayi":4000,
+            "dewasa":78000,
+            "i":80000,
+            "ii":120000,
+            "iii":180000,
+            "iva":670000
+        },
+        "jarak":30.6,
+        "satuan_jarak":"km"
+    },
+    "ketapang_gilimanuk":{"status":"coming soon"}
+}
