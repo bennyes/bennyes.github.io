@@ -32,7 +32,7 @@ function load_nav(navlocation){
   }
 }
 function load_header(){
-  load_nav();
+  load_nav('topmenu');
 }
 function load_head(pagetype='home'){
   cssloader('https://fonts.googleapis.com','preconnect');
