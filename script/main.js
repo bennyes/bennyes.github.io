@@ -31,6 +31,9 @@ function load_nav(navlocation){
     target.appendChild(navmenu);
   }
 }
+function load_header(){
+  load_nav();
+}
 function load_head(pagetype='home'){
   cssloader('https://fonts.googleapis.com','preconnect');
   cssloader('https://fonts.gstatic.com','preconnect','crossorigin');
