@@ -50,4 +50,4 @@ a{text-decoration:none;}
 }
 body{font-family:'kumbh sans'}
 header{background:var(--c1);}
-nav a{color:var(--c3)}
+#topmenu a{color:var(--c3)}
