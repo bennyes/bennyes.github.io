@@ -41,6 +41,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+a{text-decoration:none;}
 /*==== ====*/
 :root{
 	--c1:#1d1d1d;
