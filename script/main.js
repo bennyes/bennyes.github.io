@@ -39,7 +39,7 @@ function load_header(){
   let header=document.getElementById('header');
   let nav=document.createElement(nav);
   nav.id='topmenu';
-  header.appendChild('nav');
+  header.appendChild(nav);
   load_nav('topmenu');
 }
 function load_head(pagetype='home'){
