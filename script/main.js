@@ -33,10 +33,10 @@ function load_nav(navlocation){
 }
 function load_header(){
   const logosrc='';
+  let header=document.getElementById('header');
   let logo=document.createElement('img');
   logo.src=logosrc;
   header.appendChild(logo);
-  let header=document.getElementById('header');
   let nav=document.createElement(nav);
   nav.id='topmenu';
   header.appendChild(nav);
