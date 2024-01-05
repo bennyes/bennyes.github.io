@@ -37,7 +37,7 @@ function load_header(){
   let logo=document.createElement('img');
   logo.src=logosrc;
   header.appendChild(logo);
-  let nav=document.createElement(nav);
+  let nav=document.createElement('nav');
   nav.id='topmenu';
   header.appendChild(nav);
   load_nav('topmenu');
