@@ -3,7 +3,7 @@ function cssloader(csslink,rel='stylesheet',crossorigin=false){
   css.rel=rel;
   css.href=csslink;
   if(crossorigin){
-    css.crossOrigin='crossorigin';
+    css.setAttribute("crossorigin", "crossorigin");
   }
   document.head.appendChild(css);
 }
