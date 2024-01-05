@@ -26,7 +26,7 @@ function load_nav(navlocation){
     let text=navs[i].text;
     let link=navs[i].link;
     let navmenu=document.createElement('a');
-    navmenu.textContent=nav;
+    navmenu.textContent=text;
     navmenu.href=link;
     target.appendChild(navmenu);
   }
