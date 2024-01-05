@@ -42,5 +42,11 @@ table {
 	border-spacing: 0;
 }
 /*==== ====*/
-
+:root{
+	--c1:#1d1d1d;
+	--c2:#dfdfdf;
+	--c3:wheat;
+}
 body{font-family:'kumbh sans'}
+header{background:var(--c1);}
+nav a{color:var(--c3)}
