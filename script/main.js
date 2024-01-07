@@ -44,7 +44,7 @@ function load_header(){
 }
 function load_head(pagetype='home'){
   document.title='Benny Enmo Sellohna\'s Portfolio';
-  if(pagetype!=home){document.title.append(`: ${pagetype}`)}
+  if(pagetype!=='home'){document.title.append(`: ${pagetype}`)}
   cssloader('https://fonts.googleapis.com','preconnect');
   cssloader('https://fonts.gstatic.com','preconnect','crossorigin');
   cssloader('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;600;700&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
