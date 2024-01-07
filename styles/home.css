@@ -1,8 +1,8 @@
 .top-section {
     padding: 0 6em;
     height: 100vh;
-    background: #111;
-    color: #d9d9d9;
+    background: var(--c4);
+    color: var(--c2);
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -24,10 +24,10 @@ a.action-button {
 
 .top-section a.action-button {
     transition: .1s ease-in-out;
-    color: #d9d9d9;
+    color: var(--c2);
 }
 
 .top-section a.action-button:hover {
     background: #aaa;
-    color: #111;
+    color: var(--c4);
 }
