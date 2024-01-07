@@ -1,0 +1,15 @@
+.top-section {
+    padding: 0 6em;
+    height: 100vh;
+    background: #111;
+    color: #d9d9d9;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+h1.name {
+    font-size: 40pt;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+.role {font-style: italic;font-size: 15pt;}
