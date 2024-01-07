@@ -32,6 +32,7 @@ a.action-button {
     color: var(--c4);
 }
 .profile-desc {
+    height:90vh;
     display: flex;
     justify-content: flex-start;
     align-items: center;
