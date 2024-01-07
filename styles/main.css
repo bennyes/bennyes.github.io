@@ -45,8 +45,10 @@ a{text-decoration:none;}
 /*==== ====*/
 :root{
 	--c1:#1d1d1d;
-	--c2:#dfdfdf;
+	--c2:#d9d9d9;
 	--c3:wheat;
+	--c4:#111;
+	--c5:white;
 }
 body{font-family:'kumbh sans'}
 header{background:var(--c1);}
