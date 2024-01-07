@@ -13,3 +13,21 @@ h1.name {
     margin-bottom: 1rem;
 }
 .role {font-style: italic;font-size: 15pt;}
+.action-button-container {margin-top: 4em;}
+
+a.action-button {
+    padding: 1em 2.5em;
+    box-sizing: border-box;
+    border: 1px solid;
+    border-radius: 30px;
+}
+
+.top-section a.action-button {
+    transition: .1s ease-in-out;
+    color: #d9d9d9;
+}
+
+.top-section a.action-button:hover {
+    background: #aaa;
+    color: #111;
+}
