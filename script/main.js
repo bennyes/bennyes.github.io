@@ -14,12 +14,12 @@ function load_nav(navlocation){
   let target=document.getElementById(navlocation);
   const navs=[
     {
-      text:'Menu 1',
-      link:'#'
+      text:'Top',
+      link:'#top'
     },
     {
-      text:'Menu 2',
-      link:'#'
+      text:'YouTube',
+      link:'#youtube'
     }
   ];let i=0;navscounts=navs.length;
   for(i;i<navscounts;i++){
